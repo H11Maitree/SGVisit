@@ -6,7 +6,7 @@ categories: a
 ---
 **(This content generate by AI for UI demonstration purpose)**
 
-![](/assets/img/191212182124-04-singapore-buildings.jpg)
+![]({{ site.baseurl }}/assets/img/191212182124-04-singapore-buildings.jpg)
 ## Welcome to Singapore
 Singapore, known as the Lion City, is a vibrant amalgam of cultures, traditions, and ultra-modern amenities, offering a unique experience that is tough to replicate anywhere else in the world.
 
