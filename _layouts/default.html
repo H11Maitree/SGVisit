@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>  
+<!-- In this example the title tag is used to specify the title of the web page. -->  
+<title>  
+{{ page.title }}
+</title>  
+<link rel="icon" type="image/x-icon" href="https://www.cityu.edu.hk/favicon.ico">
+<link rel="stylesheet" href="/assets/css/styles.css">
+</head>  
+<body
+    class="cityu-template-2 cityu-template-2-1 cityu-base-layout cityu-base-style ct-prod ct-bootstrap-5 ct-touch ct-xxl ct-breadcrumb ct-submenu ct-sitemap"
+    data-new-gr-c-s-check-loaded="14.1111.0" data-gr-ext-installed="">
+
+    <!-- Header -->
+    {% include header.html %}
+
+    <!--  Menu -->
+    {% include menu.html %}
+
+    <!-- Breadcrumb -->
+    {% include breadcrumb.html %}
+    
+
+    <!-- Main -->
+    <main class="cityu-main" style="min-height: 605px;">
+        <div class="cityu-main-inner container">
+            <div class="row">
+
+                <!-- Content -->
+                {{content}}
+
+               
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Sitemap -->
+    {% include sitemap.html %}
+    
+    <!-- Footer -->
+    {% include footer.html %}
+
+    <!-- Required config file -->
+    <script type="text/javascript" async=""
+        src="https://www.googletagmanager.com/gtag/js?id=G-YSL0MDS9QG&amp;l=dataLayer&amp;cx=c"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-PZF4343"></script>
+    <script src="/assets/js/cityu.config.js"></script>
+
+    <!-- Required scripts -->
+    <script src="https://template.cityu.edu.hk/template/v2/js/jquery/jquery.min.js"></script>
+    <script src="https://template.cityu.edu.hk/template/v2/js/popper.js/popper.min.js"></script>
+    <script src="https://template.cityu.edu.hk/template/v2/js/bootstrap/bootstrap.min.js"></script>
+    <script src="https://template.cityu.edu.hk/template/v2/js/cityu.base.js"></script>
+
+    <!-- Optional scripts -->
+    <script async="" src="https://template.cityu.edu.hk/template/v2/js/aos/aos.js"></script>
+
+
+
+
+    <button type="button" class="cityu-backtotop" id="btn-back-to-top" aria-label="Back to top"
+        style="display: none;"><i class="fas fa-chevron-up"></i></button>
+</body>
+
+
+</html>
