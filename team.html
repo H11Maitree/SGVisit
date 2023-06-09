@@ -3,79 +3,76 @@ permalink: /team.html
 layout: page
 title: The Visit Team
 ---
+<style>
+.portraitPhoto {
+  position: relative;
+  display: inline-block;
+}
 
+.portraitPhoto img:first-child,
+.portraitPhoto img:nth-child(2) {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.portraitPhoto img:first-child {
+    animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  opacity: 40%;
+}
+
+.portraitPhoto img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.img-fluid{
+    max-height: none;
+    max-width: none;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0%; }
+  100% { opacity: 40%; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0%; }
+  100% { opacity: 40%; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0%; }
+  100% { opacity: 40%; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0%; }
+  100% { opacity: 40%; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0%; }
+  100% { opacity: 40%; }
+}
+
+</style>
 
 <!-- Content -->
                 <div class="col-md-9">
                     <div class="cityu-content content-color-default">
-                        <h2>Table</h2>
+                        
 
-                        <!-- Table -->
-                        <div class="table-responsive-lg">
-                            <table class="table table-striped table-hover">
-                                <tbody>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Position</th>
-                                        <th class="text-center">Email</th>
-                                        <th>Tel. no.</th>
-                                        <th>Office</th>
-                                    </tr>
-                                    <!-- Row -->
-                                    <tr>
-                                        <td><a href=".">Prof. Lorem Ipsum</a></td>
-                                        <td>
-                                            Head<br>
-                                            Chair Professor
-                                        </td>
-                                        <td class="text-center"><a href="mailto:"><i class="fa-regular fa-envelope"
-                                                    title="Email"></i></a></td>
-                                        <td>3442-0000</td>
-                                        <td>ACAD-B000</td>
-                                    </tr>
-                                    <!-- Row -->
-                                    <tr>
-                                        <td><a href=".">Prof. Purus Porta</a></td>
-                                        <td>Professor</td>
-                                        <td class="text-center"><a href="mailto:"><i class="fa-regular fa-envelope"
-                                                    title="Email"></i></a></td>
-                                        <td>3442-0000</td>
-                                        <td>ACAD-B000</td>
-                                    </tr>
-                                    <!-- Row -->
-                                    <tr>
-                                        <td><a href=".">Dr. Aliquam Scelerisque</a></td>
-                                        <td>Associate Professor</td>
-                                        <td class="text-center"><a href="mailto:"><i class="fa-regular fa-envelope"
-                                                    title="Email"></i></a></td>
-                                        <td>3442-0000</td>
-                                        <td>ACAD-B000</td>
-                                    </tr>
-                                    <!-- Row -->
-                                    <tr>
-                                        <td><a href=".">Dr. Cras Sed Augue</a></td>
-                                        <td>Assistant Professor</td>
-                                        <td class="text-center"><a href="mailto:"><i class="fa-regular fa-envelope"
-                                                    title="Email"></i></a></td>
-                                        <td>3442-0000</td>
-                                        <td>ACAD-B000</td>
-                                    </tr>
-                                    <!-- Row -->
-                                    <tr>
-                                        <td><a href=".">Dr. Morbi Lacinia</a></td>
-                                        <td>Adjunct Professor</td>
-                                        <td class="text-center"><a href="mailto:"><i class="fa-regular fa-envelope"
-                                                    title="Email"></i></a></td>
-                                        <td>3442-0000</td>
-                                        <td>ACAD-B000</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                       
 
-                        <div class="cityu-divider-2"></div>
-
-                        <h2 class="mb-4">Cards</h2>
+                        <h2 class="mb-4">Professors</h2>
 
                         <!-- Cards -->
                         <div class="row row-cols-xl-3 row-cols-2 g-3">
@@ -84,101 +81,22 @@ title: The Visit Team
                             <div class="col">
                                 <div class="card h-100 mt-4 border-0">
                                     <!-- Photo -->
-                                    <div class="w-50 ms-3">
-                                        <img loading="lazy" src="https://www.cityu.edu.hk/www-info/templates/2.1.0/img/people_01.jpg" class="img-fluid rounded-circle"
+                                    <div class="w-50 h-50 ms-3 portraitPhoto">
+                                        
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04206B1.JPG" class="img-fluid rounded-circle"
                                             alt="">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04206C.PNG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        
                                     </div>
                                     <div class="card-body">
                                         <!-- Name -->
-                                        <h3 class="my-0 fs-5"><a href=".">Prof. Lorem Ipsum</a></h3>
-                                        <!-- Position-->
-                                        <div class="mt-2 fs-6 fw-bold">
-                                            Head<br>
-                                            Chair Professor<br>
-                                        </div>
-                                        <!-- Info -->
-                                        <div class="mt-2">
-                                            <table class="small">
-                                                <tbody>
-                                                    <tr>
-                                                        <td class="pe-2">
-                                                            <i class="fa-solid fa-envelope"></i>
-                                                        </td>
-                                                        <td>
-                                                            <a href="mailto:">dummy.email</a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><i class="fa-solid fa-phone"></i></td>
-                                                        <td>3442-0000</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><i class="fa-solid fa-location-dot"></i></td>
-                                                        <td>ACAD-B000</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Card item -->
-                            <div class="col">
-                                <div class="card h-100 mt-4 border-0">
-                                    <!-- Photo -->
-                                    <div class="w-50 ms-3">
-                                        <img loading="lazy" src="https://www.cityu.edu.hk/www-info/templates/2.1.0/img/people_01.jpg" class="img-fluid rounded-circle"
-                                            alt="">
-                                    </div>
-                                    <div class="card-body">
-                                        <!-- Name -->
-                                        <h3 class="my-0 fs-5"><a href=".">Prof. Purus Porta</a></h3>
-                                        <!-- Position-->
-                                        <div class="mt-2 fs-6 fw-bold">
-                                            Professor<br>
-                                        </div>
-                                        <!-- Info -->
-                                        <div class="mt-2">
-                                            <table class="small">
-                                                <tbody>
-                                                    <tr>
-                                                        <td class="pe-2">
-                                                            <i class="fa-solid fa-envelope"></i>
-                                                        </td>
-                                                        <td>
-                                                            <a href="mailto:">dummy.email</a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><i class="fa-solid fa-phone"></i></td>
-                                                        <td>3442-0000</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><i class="fa-solid fa-location-dot"></i></td>
-                                                        <td>ACAD-B000</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Card item -->
-                            <div class="col">
-                                <div class="card h-100 mt-4 border-0">
-                                    <!-- Photo -->
-                                    <div class="w-50 ms-3">
-                                        <img loading="lazy" src="https://www.cityu.edu.hk/www-info/templates/2.1.0/img/people_01.jpg" class="img-fluid rounded-circle"
-                                            alt="">
-                                    </div>
-                                    <div class="card-body">
-                                        <!-- Name -->
-                                        <h3 class="my-0 fs-5"><a href=".">Dr. Aliquam Scelerisque</a></h3>
+                                        <h3 class="my-0 fs-5"><a href="https://scholars.cityu.edu.hk/en/persons/wing-ho-howard-leung(8946e4a8-b1a3-43bc-8537-2fdb05dd3001).html">Dr. Wing Ho LEUNG <h3 class="my-0 fs-6">(Howard)</h3></a></h3>
+                                        
                                         <!-- Position-->
                                         <div class="mt-2 fs-6 fw-bold">
                                             Associate Professor<br>
+                                            Department of Computer Science<br>
                                         </div>
                                         <!-- Info -->
                                         <div class="mt-2">
@@ -189,16 +107,16 @@ title: The Visit Team
                                                             <i class="fa-solid fa-envelope"></i>
                                                         </td>
                                                         <td>
-                                                            <a href="mailto:">dummy.email</a>
+                                                            <a href="mailto:howard@cityu.edu.hk">howard@cityu.edu.hk</a>
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td><i class="fa-solid fa-phone"></i></td>
-                                                        <td>3442-0000</td>
+                                                        <td>+852 3442-7234</td>
                                                     </tr>
                                                     <tr>
                                                         <td><i class="fa-solid fa-location-dot"></i></td>
-                                                        <td>ACAD-B000</td>
+                                                        <td>YEUNG-Y6410</td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -211,16 +129,73 @@ title: The Visit Team
                             <div class="col">
                                 <div class="card h-100 mt-4 border-0">
                                     <!-- Photo -->
-                                    <div class="w-50 ms-3">
-                                        <img loading="lazy" src="https://www.cityu.edu.hk/www-info/templates/2.1.0/img/people_01.jpg" class="img-fluid rounded-circle"
+                                    <div class="w-50 h-50 ms-3 portraitPhoto">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04286B2.JPG" class="img-fluid rounded-circle"
                                             alt="">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04286C.PNG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        
                                     </div>
                                     <div class="card-body">
                                         <!-- Name -->
-                                        <h3 class="my-0 fs-5"><a href=".">Dr. Cras Sed Augue</a></h3>
+                                        <a href="https://www.cityu.edu.hk/stfprofile/kenkclee.htm"><h3 class="my-0 fs-5">Dr. Ka Chun LEE</h3>
+                                        <h3 class="my-0 fs-6">(Kenneth)</h3>
+                                    </a>
+                                        
                                         <!-- Position-->
                                         <div class="mt-2 fs-6 fw-bold">
-                                            Assistant Professor<br>
+                                            Instructor<br>
+                                            Department of Computer Science<br>
+                                        </div>
+                                        <!-- Info -->
+                                        <div class="mt-2">
+                                            <table class="small">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="pe-2">
+                                                            <i class="fa-solid fa-envelope"></i>
+                                                        </td>
+                                                        <td>
+                                                            <a href="mailto:kenkclee@cityu.edu.hk">kenkclee@cityu.edu.hk</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><i class="fa-solid fa-phone"></i></td>
+                                                        <td>+852 3442-4911</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><i class="fa-solid fa-location-dot"></i></td>
+                                                        <td>YEUNG-G6512</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="cityu-divider-2"></div>
+                        <h2 class="mb-4">Students</h2>
+                        <div class="row row-cols-xl-3 row-cols-2 g-3">
+
+                            <!-- Card item -->
+                            <div class="col">
+                                <div class="card h-100 mt-4 border-0">
+                                    <!-- Photo -->
+                                    <div class="w-50 h-50 ms-3 portraitPhoto">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04200B3.JPG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04200C.PNG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        
+                                    </div>
+                                    <div class="card-body">
+                                        <!-- Name -->
+                                        <h3 class="my-0 fs-5">Quazi Towsif ALI</h3>
+                                        <h4 class="my-0 fs-6">&nbsp;</h4>
+                                        <!-- Position-->
+                                        <div class="mt-2 fs-6 fw-bold">
+                                            Year 3<br>
                                         </div>
                                         <!-- Info -->
                                         <div class="mt-2">
@@ -233,14 +208,6 @@ title: The Visit Team
                                                         <td>
                                                             <a href="mailto:">dummy.email</a>
                                                         </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><i class="fa-solid fa-phone"></i></td>
-                                                        <td>3442-0000</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><i class="fa-solid fa-location-dot"></i></td>
-                                                        <td>ACAD-B000</td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -253,16 +220,20 @@ title: The Visit Team
                             <div class="col">
                                 <div class="card h-100 mt-4 border-0">
                                     <!-- Photo -->
-                                    <div class="w-50 ms-3">
-                                        <img loading="lazy" src="https://www.cityu.edu.hk/www-info/templates/2.1.0/img/people_01.jpg" class="img-fluid rounded-circle"
+                                    <div class="w-50 h-50 ms-3 portraitPhoto">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04358B4.JPG" class="img-fluid rounded-circle"
                                             alt="">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04358C.PNG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        
                                     </div>
                                     <div class="card-body">
                                         <!-- Name -->
-                                        <h3 class="my-0 fs-5"><a href=".">Dr. Morbi Lacinia</a></h3>
+                                        <h3 class="my-0 fs-5">Lav ASRANI</h3>
+                                        <h4 class="my-0 fs-6">&nbsp;</h4>
                                         <!-- Position-->
                                         <div class="mt-2 fs-6 fw-bold">
-                                            Adjunct Professor<br>
+                                            Year 3<br>
                                         </div>
                                         <!-- Info -->
                                         <div class="mt-2">
@@ -276,13 +247,43 @@ title: The Visit Team
                                                             <a href="mailto:">dummy.email</a>
                                                         </td>
                                                     </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card item -->
+                            <div class="col">
+                                <div class="card h-100 mt-4 border-0">
+                                    <!-- Photo -->
+                                    <div class="w-50 h-50 ms-3 portraitPhoto">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04134B1.JPG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04134C.PNG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        
+                                    </div>
+                                    <div class="card-body">
+                                        <!-- Name -->
+                                        <h3 class="my-0 fs-5">Huiyu BAI</h3>
+                                        <h4 class="my-0 fs-6">&nbsp;</h4>
+                                        <!-- Position-->
+                                        <div class="mt-2 fs-6 fw-bold">
+                                            Year 3<br>
+                                        </div>
+                                        <!-- Info -->
+                                        <div class="mt-2">
+                                            <table class="small">
+                                                <tbody>
                                                     <tr>
-                                                        <td><i class="fa-solid fa-phone"></i></td>
-                                                        <td>3442-0000</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><i class="fa-solid fa-location-dot"></i></td>
-                                                        <td>ACAD-B000</td>
+                                                        <td class="pe-2">
+                                                            <i class="fa-solid fa-envelope"></i>
+                                                        </td>
+                                                        <td>
+                                                            <a href="mailto:">dummy.email</a>
+                                                        </td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -290,266 +291,365 @@ title: The Visit Team
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- Card item -->
+                            <div class="col">
+                                <div class="card h-100 mt-4 border-0">
+                                    <!-- Photo -->
+                                    <div class="w-50 h-50 ms-3 portraitPhoto">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04172B2.JPG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04172C.PNG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        
+                                    </div>
+                                    <div class="card-body">
+                                        <!-- Name -->
+                                        <h3 class="my-0 fs-5">Latisha Besariani HENDRA</h3>
+                                        <h4 class="my-0 fs-6">&nbsp;</h4>
+                                        <!-- Position-->
+                                        <div class="mt-2 fs-6 fw-bold">
+                                            Year 1<br>
+                                        </div>
+                                        <!-- Info -->
+                                        <div class="mt-2">
+                                            <table class="small">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="pe-2">
+                                                            <i class="fa-solid fa-envelope"></i>
+                                                        </td>
+                                                        <td>
+                                                            <a href="mailto:">dummy.email</a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card item -->
+                            <div class="col">
+                                <div class="card h-100 mt-4 border-0">
+                                    <!-- Photo -->
+                                    <div class="w-50 h-50 ms-3 portraitPhoto">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04283B3.JPG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04283C.PNG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        
+                                    </div>
+                                    <div class="card-body">
+                                        <!-- Name -->
+                                        <h3 class="my-0 fs-5">Maitree HIRUNTEEYAKUL</h3>
+                                        <h4 class="my-0 fs-6">&nbsp;</h4>
+                                        
+                                        <!-- Position-->
+                                        <div class="mt-2 fs-6 fw-bold">
+                                            Year 2<br>
+                                        </div>
+                                        <!-- Info -->
+                                        <div class="mt-2">
+                                            <table class="small">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="pe-2">
+                                                            <i class="fa-solid fa-envelope"></i>
+                                                        </td>
+                                                        <td>
+                                                            <a href="mailto:Matt.H@my.cityu.edu.hk">Matt.H@my.cityu.edu.hk</a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card item -->
+                            <div class="col">
+                                <div class="card h-100 mt-4 border-0">
+                                    <!-- Photo -->
+                                    <div class="w-50 h-50 ms-3 portraitPhoto">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04073B4.JPG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04073C.PNG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        
+                                    </div>
+                                    <div class="card-body">
+                                        <!-- Name -->
+                                        <h3 class="my-0 fs-5">Kusuma JAIPIAM</h3>
+                                        <h4 class="my-0 fs-6">(Pang)</h4>
+                                        
+                                        <!-- Position-->
+                                        <div class="mt-2 fs-6 fw-bold">
+                                            Year 2<br>
+                                        </div>
+                                        <!-- Info -->
+                                        <div class="mt-2">
+                                            <table class="small">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="pe-2">
+                                                            <i class="fa-solid fa-envelope"></i>
+                                                        </td>
+                                                        <td>
+                                                            <a href="mailto:kjaipiam2-c@my.cityu.edu.hk">kjaipiam2-c@my.cityu.edu.hk</a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card item -->
+                            <div class="col">
+                                <div class="card h-100 mt-4 border-0">
+                                    <!-- Photo -->
+                                    <div class="w-50 h-50 ms-3 portraitPhoto">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04159B1.JPG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04159C.PNG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        
+                                    </div>
+                                    <div class="card-body">
+                                        <!-- Name -->
+                                        <h3 class="my-0 fs-5">Mahir LABIB</h3>
+                                        <h4 class="my-0 fs-6">&nbsp;</h4>
+                                        
+                                        <!-- Position-->
+                                        <div class="mt-2 fs-6 fw-bold">
+                                            Year 2<br>
+                                        </div>
+                                        <!-- Info -->
+                                        <div class="mt-2">
+                                            <table class="small">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="pe-2">
+                                                            <i class="fa-solid fa-envelope"></i>
+                                                        </td>
+                                                        <td>
+                                                            <a href="mailto:mlabib2-c@my.cityu.edu.hk">mlabib2-c@my.cityu.edu.hk</a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card item -->
+                            <div class="col">
+                                <div class="card h-100 mt-4 border-0">
+                                    <!-- Photo -->
+                                    <div class="w-50 h-50 ms-3 portraitPhoto">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT03171B2.JPG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT03171C.PNG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        
+                                    </div>
+                                    <div class="card-body">
+                                        <!-- Name -->
+                                        <h3 class="my-0 fs-5">Trung Hai LE</h3>
+                                        <h4 class="my-0 fs-6">&nbsp;</h4>
+                                        
+                                        <!-- Position-->
+                                        <div class="mt-2 fs-6 fw-bold">
+                                            Year 2<br>
+                                        </div>
+                                        <!-- Info -->
+                                        <div class="mt-2">
+                                            <table class="small">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="pe-2">
+                                                            <i class="fa-solid fa-envelope"></i>
+                                                        </td>
+                                                        <td>
+                                                            <a href="mailto:trunghle3-c@my.cityu.edu.hk">trunghle3-c@my.cityu.edu.hk</a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card item -->
+                            <div class="col">
+                                <div class="card h-100 mt-4 border-0">
+                                    <!-- Photo -->
+                                    <div class="w-50 h-50 ms-3 portraitPhoto">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04261B3.JPG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04261C.PNG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        
+                                    </div>
+                                    <div class="card-body">
+                                        <!-- Name -->
+                                        <h3 class="my-0 fs-5">Hendry Wijaya LI</h3>
+                                        <h4 class="my-0 fs-6">&nbsp;</h4>
+                                        
+                                        <!-- Position-->
+                                        <div class="mt-2 fs-6 fw-bold">
+                                            Year 3<br>
+                                        </div>
+                                        <!-- Info -->
+                                        <div class="mt-2">
+                                            <table class="small">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="pe-2">
+                                                            <i class="fa-solid fa-envelope"></i>
+                                                        </td>
+                                                        <td>
+                                                            <a href="mailto:">dummy.email</a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card item -->
+                            <div class="col">
+                                <div class="card h-100 mt-4 border-0">
+                                    <!-- Photo -->
+                                    <div class="w-50 h-50 ms-3 portraitPhoto">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04158B4.JPG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04158C.PNG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        
+                                    </div>
+                                    <div class="card-body">
+                                        <!-- Name -->
+                                        <h3 class="my-0 fs-5">Nurdaulet TAUMERGENOV</h3>
+                                        <h4 class="my-0 fs-6">&nbsp;</h4>
+                                        
+                                        <!-- Position-->
+                                        <div class="mt-2 fs-6 fw-bold">
+                                            Year 2<br>
+                                        </div>
+                                        <!-- Info -->
+                                        <div class="mt-2">
+                                            <table class="small">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="pe-2">
+                                                            <i class="fa-solid fa-envelope"></i>
+                                                        </td>
+                                                        <td>
+                                                            <a href="mailto:ntaumerge2-c@my.cityu.edu.hk">ntaumerge2-c@my.cityu.edu.hk</a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                             <!-- Card item -->
+                             <div class="col">
+                                <div class="card h-100 mt-4 border-0">
+                                    <!-- Photo -->
+                                    <div class="w-50 h-50 ms-3 portraitPhoto">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04233B1.JPG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04233C.PNG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        
+                                    </div>
+                                    <div class="card-body">
+                                        <!-- Name -->
+                                        <h3 class="my-0 fs-5">Junyan XU</h3>
+                                        <h4 class="my-0 fs-6">(Marshall)</h4>
+                                        
+                                        <!-- Position-->
+                                        <div class="mt-2 fs-6 fw-bold">
+                                            Year 3<br>
+                                        </div>
+                                        <!-- Info -->
+                                        <div class="mt-2">
+                                            <table class="small">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="pe-2">
+                                                            <i class="fa-solid fa-envelope"></i>
+                                                        </td>
+                                                        <td>
+                                                            <a href="mailto:">dummy.email</a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card item -->
+                            <div class="col">
+                                <div class="card h-100 mt-4 border-0">
+                                    <!-- Photo -->
+                                    <div class="w-50 h-50 ms-3 portraitPhoto">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04177B2.JPG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04177C.PNG" class="img-fluid rounded-circle"
+                                            alt="">
+                                        
+                                    </div>
+                                    <div class="card-body">
+                                        <!-- Name -->
+                                        <h3 class="my-0 fs-5">Chi Wai YAU</h3>
+                                        <h4 class="my-0 fs-6">&nbsp;</h4>
+                                        
+                                        <!-- Position-->
+                                        <div class="mt-2 fs-6 fw-bold">
+                                            Year 3<br>
+                                        </div>
+                                        <!-- Info -->
+                                        <div class="mt-2">
+                                            <table class="small">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="pe-2">
+                                                            <i class="fa-solid fa-envelope"></i>
+                                                        </td>
+                                                        <td>
+                                                            <a href="mailto:">dummy.email</a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
 
                         </div>
 
                         <div class="cityu-divider-1"></div>
 
-                        <h2 class="mb-4">Cards (Horizontal)</h2>
-
-                        <!-- Cards -->
-                        <div class="row row-cols-md-2 row-cols-1 g-3">
-
-                            <!-- Card item -->
-                            <div class="col">
-                                <div class="card h-100 border-0">
-                                    <div class="row">
-                                        <!-- Photo -->
-                                        <div class="col-4 pe-0 pt-3">
-                                            <img loading="lazy" src="https://www.cityu.edu.hk/www-info/templates/2.1.0/img/people_02.jpg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="col-8 card-body">
-                                            <!-- Name -->
-                                            <h3 class="my-0 fs-5"><a href=".">Prof. Lorem Ipsum</a></h3>
-                                            <!-- Position-->
-                                            <div class="mt-2 fs-6 fw-bold">
-                                                Head<br>
-                                                Chair Professor<br>
-                                            </div>
-                                            <!-- Info -->
-                                            <div class="mt-2">
-                                                <table class="small">
-                                                    <tbody>
-                                                        <tr>
-                                                            <td class="pe-2">
-                                                                <i class="fa-solid fa-envelope"></i>
-                                                            </td>
-                                                            <td>
-                                                                <a href="mailto:">dummy.email</a>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><i class="fa-solid fa-phone"></i></td>
-                                                            <td>3442-0000</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><i class="fa-solid fa-location-dot"></i></td>
-                                                            <td>ACAD-B000</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Card item -->
-                            <div class="col">
-                                <div class="card h-100 border-0">
-                                    <div class="row">
-                                        <!-- Photo -->
-                                        <div class="col-4 pe-0 pt-3">
-                                            <img loading="lazy" src="https://www.cityu.edu.hk/www-info/templates/2.1.0/img/people_02.jpg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="col-8 card-body">
-                                            <!-- Name -->
-                                            <h3 class="my-0 fs-5"><a href=".">Prof. Purus Porta</a></h3>
-                                            <!-- Position-->
-                                            <div class="mt-2 fs-6 fw-bold">
-                                                Professor<br>
-                                            </div>
-                                            <!-- Info -->
-                                            <div class="mt-2">
-                                                <table class="small">
-                                                    <tbody>
-                                                        <tr>
-                                                            <td class="pe-2">
-                                                                <i class="fa-solid fa-envelope"></i>
-                                                            </td>
-                                                            <td>
-                                                                <a href="mailto:">dummy.email</a>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><i class="fa-solid fa-phone"></i></td>
-                                                            <td>3442-0000</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><i class="fa-solid fa-location-dot"></i></td>
-                                                            <td>ACAD-B000</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Card item -->
-                            <div class="col">
-                                <div class="card h-100 border-0">
-                                    <div class="row">
-                                        <!-- Photo -->
-                                        <div class="col-4 pe-0 pt-3">
-                                            <img loading="lazy" src="https://www.cityu.edu.hk/www-info/templates/2.1.0/img/people_02.jpg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="col-8 card-body">
-                                            <!-- Name -->
-                                            <h3 class="my-0 fs-5"><a href=".">Dr. Aliquam Scelerisque</a></h3>
-                                            <!-- Position-->
-                                            <div class="mt-2 fs-6 fw-bold">
-                                                Associate Professor<br>
-                                            </div>
-                                            <!-- Info -->
-                                            <div class="mt-2">
-                                                <table class="small">
-                                                    <tbody>
-                                                        <tr>
-                                                            <td class="pe-2">
-                                                                <i class="fa-solid fa-envelope"></i>
-                                                            </td>
-                                                            <td>
-                                                                <a href="mailto:">dummy.email</a>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><i class="fa-solid fa-phone"></i></td>
-                                                            <td>3442-0000</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><i class="fa-solid fa-location-dot"></i></td>
-                                                            <td>ACAD-B000</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Card item -->
-                            <div class="col">
-                                <div class="card h-100 border-0">
-                                    <div class="row">
-                                        <!-- Photo -->
-                                        <div class="col-4 pe-0 pt-3">
-                                            <img loading="lazy" src="https://www.cityu.edu.hk/www-info/templates/2.1.0/img/people_02.jpg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="col-8 card-body">
-                                            <!-- Name -->
-                                            <h3 class="my-0 fs-5"><a href=".">Dr. Cras Sed Augue</a></h3>
-                                            <!-- Position-->
-                                            <div class="mt-2 fs-6 fw-bold">
-                                                Assistant Professor<br>
-                                            </div>
-                                            <!-- Info -->
-                                            <div class="mt-2">
-                                                <table class="small">
-                                                    <tbody>
-                                                        <tr>
-                                                            <td class="pe-2">
-                                                                <i class="fa-solid fa-envelope"></i>
-                                                            </td>
-                                                            <td>
-                                                                <a href="mailto:">dummy.email</a>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><i class="fa-solid fa-phone"></i></td>
-                                                            <td>3442-0000</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><i class="fa-solid fa-location-dot"></i></td>
-                                                            <td>ACAD-B000</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Card item -->
-                            <div class="col">
-                                <div class="card h-100 border-0">
-                                    <div class="row">
-                                        <!-- Photo -->
-                                        <div class="col-4 pe-0 pt-3">
-                                            <img loading="lazy" src="https://www.cityu.edu.hk/www-info/templates/2.1.0/img/people_02.jpg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="col-8 card-body">
-                                            <!-- Name -->
-                                            <h3 class="my-0 fs-5"><a href=".">Dr. Morbi Lacinia</a></h3>
-                                            <!-- Position-->
-                                            <div class="mt-2 fs-6 fw-bold">
-                                                Adjunct Professor<br>
-                                            </div>
-                                            <!-- Info -->
-                                            <div class="mt-2">
-                                                <table class="small">
-                                                    <tbody>
-                                                        <tr>
-                                                            <td class="pe-2">
-                                                                <i class="fa-solid fa-envelope"></i>
-                                                            </td>
-                                                            <td>
-                                                                <a href="mailto:">dummy.email</a>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><i class="fa-solid fa-phone"></i></td>
-                                                            <td>3442-0000</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><i class="fa-solid fa-location-dot"></i></td>
-                                                            <td>ACAD-B000</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
                         <br>
 
                     </div>
                 </div>
-                 <!-- Sidebar -->
-                <div class="col-md-3">
-
-                    <!-- Submenu -->
-                    <aside class="cityu-submenu-list cityu-sidebar sidebar-color-default cityu-submenu-list-md">
-                        <h2>Sample Pages</h2>
-                        <ul>
-
-                            <!-- Auto generated when <ul> is empty -->
-
-                            <li>
-                                <a class="" href="sample-components.htm">Sample Components</a>
-                            </li>
-                            <li class="">
-                                <a class="" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Staff
-                                    List</a>
-                                <ul class="animate__animated animate__fadeIn" style="--animate-duration: 0.5s;">
-
-                                    <!-- Menu item (Link) -->
-                                    <li>
-                                        <a class="active" href="stafflist.htm">Academic Staff</a>
-                                    </li>
-
-                                </ul>
-                            </li>
-                            <li>
-                                <a class="" href="contactus.htm">Contact Us</a>
-                            </li>
-                        </ul>
-                    </aside>
-
-                </div>
+                 
