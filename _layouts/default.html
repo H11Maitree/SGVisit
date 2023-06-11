@@ -3,7 +3,11 @@
 <head>  
 <meta charset="utf-8">
 <title>  
+{% if page.title %}
 {{ page.title }} | Singapore Visit 2023 (CS) | City University of Hong Kong
+{% else %}
+Singapore Visit 2023 (CS) | City University of Hong Kong
+{% endif %}
 </title>  
 <link rel="icon" type="image/x-icon" href="https://www.cityu.edu.hk/favicon.ico">
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
