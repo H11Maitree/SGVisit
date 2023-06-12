@@ -1,3 +1,4 @@
+[![Board Status](https://dev.azure.com/SGVisit/e635ec35-560a-4edc-bc08-7f3d68a05b54/2099dcf2-d96a-4699-8a6e-1155aad93b16/_apis/work/boardbadge/55a59400-5e3d-457c-a401-d2cd0178500f)](https://dev.azure.com/SGVisit/e635ec35-560a-4edc-bc08-7f3d68a05b54/_boards/board/t/2099dcf2-d96a-4699-8a6e-1155aad93b16/Microsoft.RequirementCategory)
 # CityU CS Singapore Visit
 
 Hello, this is the repository for the CityU CS Singapore Visit website. The preview is available at the repository's [Github Page](https://h11maitree.github.io/SGVisit/)
