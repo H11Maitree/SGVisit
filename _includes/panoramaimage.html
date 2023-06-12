@@ -12,4 +12,8 @@
 viewer = new PANOLENS.Viewer( { container: document.querySelector( '#{{include.id}}' ) } );
 viewer.add( panorama );
 
+{% if include.x and include.y and include.z %}
+viewer.tweenControlCenter( new THREE.Vector3({{ include.x }}/10, {{ include.y }}/10, {{ include.z }}/10), 0 );
+{% endif %}
+
 </script>
