@@ -4,8 +4,11 @@
 <script src="{{ site.baseurl }}/assets/js/panolens.min.js"></script>
 
 <script>
-
-panorama = new PANOLENS.ImagePanorama( {{include.src}} );
+{% if include.src contains 'https://' %}
+  panorama = new PANOLENS.ImagePanorama("{{ include.src }}");
+{% else %}
+  panorama = new PANOLENS.ImagePanorama('{{ site.baseurl }}'+'{{ include.src }}');
+{% endif %}
 viewer = new PANOLENS.Viewer( { container: document.querySelector( '#{{include.id}}' ) } );
 viewer.add( panorama );
 
