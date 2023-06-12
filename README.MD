@@ -43,5 +43,15 @@ Each page should have a header
  - [Include features, import a component html into markdown/another html](https://jekyllrb.com/docs/includes/)
  - [MarkDown Editor](https://stackedit.io/app#)
 
+## Inter-Page Linking
+Since this website is intended to be a subpage of a larger website, it is important to include the site's base URL in all inter-page and resource links. This ensures that the links function correctly and direct users to the desired pages.
+Below is an example of a **correct inter-page link**, where the base URL is properly included:
+
+	<a  href="{{ site.baseurl }}/team"> The Team </a>
+On the other hand, here is an example of an **incorrect inter-page link** that does not include the base URL:
+
+	<a  href="/team"> The Team </a>
+By omitting the base URL in the link, it may lead to broken or misdirected links, resulting in a poor user experience. Therefore, it is crucial to adhere to the correct format for inter-page links by including the site's base URL.
+
 ## GitHub Page (GitHub.io)
-It will automatically as you push, the baked html will reflex the repository GitHub.io page automatically.
+It will automatically as you push, the baked html will reflex the repository GitHub.io page automatically. If it not update within 10 mins please check [Actions](https://github.com/H11Maitree/SGVisit/actions).
