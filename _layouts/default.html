@@ -3,7 +3,7 @@
 <head>  
 <meta charset="utf-8">
 <title>  
-{% if page.title and page.title != "Home" %}
+{% if page.title and page.title != "Home" and page.title != "404" %}
 {{ page.title }} | Singapore Visit 2023 (CS) | City University of Hong Kong
 {% else %}
 Singapore Visit 2023 (CS) | City University of Hong Kong
@@ -28,7 +28,7 @@ Singapore Visit 2023 (CS) | City University of Hong Kong
     {% include menu.html %}
 
     <!-- Breadcrumb -->
-    {% if page.title != "Home" %}
+    {% if page.title != "Home" and page.title != 404 %}
     {% include breadcrumb.html %}
     {% endif %}
 
