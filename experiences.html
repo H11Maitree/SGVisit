@@ -10,27 +10,59 @@ title: Experience and Reflections
         text-align: justify;
     }
 
+    .portraitPhoto {
+        position: relative;
+    }
+
+    .portraitPhoto img:first-child,
+    .portraitPhoto img:nth-child(2) {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
+    .portraitPhoto img:nth-child(2) {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .portraitPhoto img:nth-child(1) {
+        opacity: 60%;
+    }
+
+    .img-fluid {
+        max-height: none;
+        max-width: none;
+    }
+
+    h2 {
+        display: inline-flex;
+    }
 </style>
 
 <script>
-window.onload = function() {
-    // select all divs with class a1
-    var divsA1 = document.querySelectorAll(".a1");
+    window.onload = function () {
+        // select all divs with class a1
+        var divsA1 = document.querySelectorAll(".a1");
 
-    // loop through all selected divs
-    divsA1.forEach(function(divA1) {
-        // select image within current div
-        var imgInA1 = divA1.querySelector("img");
+        // loop through all selected divs
+        divsA1.forEach(function (divA1) {
+            // select image within current div
+            var imgInA1 = divA1.querySelector("img");
 
-        // set the image height to be the same as the div's height
-        if(imgInA1) {
-            imgInA1.style.height = "0px";
-            imgInA1.style.height = divA1.offsetHeight + "px";
-            imgInA1.style.height = divA1.offsetHeight + "px";
-            imgInA1.style.height = divA1.offsetHeight + "px";
-        }
-    });
-}
+            // set the image height to be the same as the div's height
+            if (imgInA1) {
+                imgInA1.style.height = "0px";
+                imgInA1.style.height = divA1.offsetHeight + "px";
+                imgInA1.style.height = divA1.offsetHeight + "px";
+                imgInA1.style.height = divA1.offsetHeight + "px";
+            }
+        });
+    }
 </script>
 <script src="https://cdn.tailwindcss.com"></script>
 
@@ -39,11 +71,84 @@ window.onload = function() {
 
         <div>
             <div class="hidden md:block">
+
+                <div class="w-12 h-12 me-3 portraitPhoto inline-block lg:hidden">
+                    <img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04200B3.jpg"
+                        class="img-fluid rounded-circle block lg:hidden" alt="">
+                    <img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04200C.png"
+                        class="img-fluid rounded-circle block lg:hidden" alt="">
+
+                </div>
+                <h2 class="mb-4">Quazi Towsif ALI</h2>
+            </div>
+            <div class="a1" style=" overflow: clip;">
+                <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04200C.png"
+                    class="img-fluid hidden lg:block"
+                    style="float: right; shape-outside: url({{ site.baseurl }}/assets/img/portraitPhotos/MAT04200C.png);"
+                    alt="">
+                <div class="a2">
+                    <p>
+                        As I reflect on my recent 5-day academic trip to Singapore, I can't help but feel grateful for
+                        the fantastic experiences I had there.
+                    </p>
+                    <p>
+                        Upon arriving in Singapore on the first day, I was filled with excitement and anticipation for
+                        what was to come. The next day, I had the opportunity to visit the National University of
+                        Singapore (NUS) and attend a fascinating lecture. During lunch and the lab visit, I had the
+                        chance to network with fellow academics and see the impressive research facilities at NUS.
+                    </p>
+                    <p>
+                        The third day was also packed with activities as I visited the office of Carousell, where I
+                        learned about e-commerce and start-ups in Singapore. I then went to the Singapore Management
+                        University (SMU) to learn from experts in my field.
+                    </p>
+                    <p>
+                        After all the academic activities, I took a break on the fourth day and explored Singapore. I
+                        visited the Sentosa Island Aquarium, a great way to learn about marine life and have fun.
+
+                    </p>
+                    <p>
+                        On the final day, I returned to Hong Kong feeling refreshed and inspired by my trip. Overall, it
+                        was an enriching experience that allowed me to learn from experts in my field, network with
+                        fellow academics, and explore a new place. I can't wait for my next academic trip!
+
+                    </p>
+                </div>
+
+            </div>
+            <div class="flex md:hidden" style=" justify-content: flex-end;">
+                <p style="    margin-bottom: auto;
+    margin-top: auto;" style="">- Quazi Towsif ALI</p>
+                <div class="w-12 h-12 ms-2 me-2 portraitPhoto">
+                    <img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04200B3.jpg"
+                        class="img-fluid rounded-circle block lg:hidden" alt="">
+                    <img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04200C.png"
+                        class="img-fluid rounded-circle block lg:hidden" alt="">
+
+                </div>
+
+            </div>
+            <div class="cityu-divider-1"></div>
+        </div>
+
+
+        <div>
+            <div class="hidden md:block">
+
+                <div class="w-12 h-12 me-3 portraitPhoto inline-block lg:hidden">
+                    <img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04159B1.jpg"
+                        class="img-fluid rounded-circle block lg:hidden" alt="">
+                    <img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04159C.png"
+                        class="img-fluid rounded-circle block lg:hidden" alt="">
+
+                </div>
                 <h2 class="mb-4">Mahir LABIB</h2>
             </div>
             <div class="a1" style=" overflow: clip;">
-                    <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04159C.png"
-                        class="img-fluid hidden lg:block" style="float: right; shape-outside: url({{ site.baseurl }}/assets/img/portraitPhotos/MAT04159C.png);" alt="">
+                <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04159C.png"
+                    class="img-fluid hidden lg:block"
+                    style="float: left; shape-outside: url({{ site.baseurl }}/assets/img/portraitPhotos/MAT04159C.png);"
+                    alt="">
                 <div class="a2">
                     <p>
                         My recent trip to Singapore was a wonderful experience that not only allowed me to explore the
@@ -69,48 +174,79 @@ window.onload = function() {
                 </div>
 
             </div>
-            <div class="block md:hidden">
-                <p class="mb-4" style="display:flex; justify-content: flex-end;">- Mahir LABIB</p>
-                <div class="cityu-divider-2"></div>
+            <div class="flex md:hidden" style=" justify-content: flex-end;">
+                <p style="    margin-bottom: auto;
+    margin-top: auto;" style="">- Mahir LABIB</p>
+                <div class="w-12 h-12 ms-2 me-2 portraitPhoto">
+                    <img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04159B1.jpg"
+                        class="img-fluid rounded-circle block lg:hidden" alt="">
+                    <img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04159C.png"
+                        class="img-fluid rounded-circle block lg:hidden" alt="">
+
+                </div>
+
             </div>
+            <div class="cityu-divider-2"></div>
         </div>
 
         <div>
             <div class="hidden md:block">
-                <h2 class="mb-4">Mahir LABIB</h2>
+
+                <div class="w-12 h-12 me-3 portraitPhoto inline-block lg:hidden">
+                    <img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04177B2.jpg"
+                        class="img-fluid rounded-circle block lg:hidden" alt="">
+                    <img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04177C.png"
+                        class="img-fluid rounded-circle block lg:hidden" alt="">
+
+                </div>
+                <h2 class="mb-4">Chi Wai YAU</h2>
             </div>
             <div class="a1" style=" overflow: clip;">
-                    <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04159C.png"
-                        class="img-fluid hidden lg:block" style="float: right; shape-outside: url({{ site.baseurl }}/assets/img/portraitPhotos/MAT04159C.png);" alt="">
+                <img loading="lazy" src="{{ site.baseurl }}/assets/img/portraitPhotos/MAT04177C.png"
+                    class="img-fluid hidden lg:block"
+                    style="float: right; shape-outside: url({{ site.baseurl }}/assets/img/portraitPhotos/MAT04177C.png);"
+                    alt="">
                 <div class="a2">
-                    <p>
-                        My recent trip to Singapore was a wonderful experience that not only allowed me to explore the
-                        city's beauty but also helped me expand my professional network. I met many people from
-                        universities, industry professionals, and professors, which was a great learning experience.
+                     <p>
+                        In this 5-day tour visit, I learned a lot about how to collaborate with the others with
+                        different cultural backgrounds. This experience is very valuable since it is not easy to gather
+                        local and non-local students in an oversea trip.
                     </p>
                     <p>
-                        I also had the opportunity to bond with new friends from the National University of Singapore
-                        (NUS) andthe Singapore Management University(SMU). We explored the city together and tried some
-                        of the local delicacies, which broadened my perspective and understanding of different cultures.
+                        Apart from the official activities, we have explored some famous sightseeing places in spare
+                        time such as Marina Bay Sand, Clarke Quay and Sentosa. Also, we have tasted various fresh
+                        durians in four popular durian stores which are in different residential areas. In the
+                        meanwhile, we have experienced their local culture such as taking transportation to non-tourist
+                        area, buying household goods from the local grocery store and talking with local residence in
+                        the restaurant.
                     </p>
                     <p>
-                        The city's transportation system was efficient, clean, and affordable, which made it easy for me
-                        to get around and explore different parts of the city. Additionally, the food was diverse, and I
-                        enjoyed exploring the different options available, from hawker centers to high-end restaurants.
+                        Besides, I have learned how to use the professional software to design the props. During the
+                        trip, I have familiarized the photo taking and video shooting skills. After that, I have learned
+                        how to edit the video as well. This is a great chance to me to practice those useful multimedia
+                        editing techniques.
                     </p>
                     <p>
-                        Lastly, the people of Singapore were warm, friendly, and welcoming, and I learned a lot about
-                        their fascinating culture. Overall, it was an unforgettable trip that I will cherish for a long
-                        time.
+                        At last, I have Dr. Howard LEUNG and Dr. Kenneth LEE to thank for giving me the chance to
+                        participate in this memorable trip as well as enriching my wonderful University Life.
 
                     </p>
                 </div>
 
             </div>
-            <div class="block md:hidden">
-                <p class="mb-4" style="display:flex; justify-content: flex-end;">- Mahir LABIB</p>
-                <div class="cityu-divider-2"></div>
+            <div class="flex md:hidden" style=" justify-content: flex-end;">
+                <p style="    margin-bottom: auto;
+    margin-top: auto;" style="">- Chi Wai YAU</p>
+                <div class="w-12 h-12 ms-2 me-2 portraitPhoto">
+                    <img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04177B2.jpg"
+                        class="img-fluid rounded-circle block lg:hidden" alt="">
+                    <img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04177C.png"
+                        class="img-fluid rounded-circle block lg:hidden" alt="">
+
+                </div>
+
             </div>
+            <div class="cityu-divider-1"></div>
         </div>
 
 
