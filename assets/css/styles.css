@@ -5,11 +5,3 @@
 
 @import "https://template.cityu.edu.hk/template/v2/css/aos/aos.css";
 @import "https://template.cityu.edu.hk/template/v2/css/animate.css/animate.min.css";
-
-img {
-    max-width: 80%;
-    max-height: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
