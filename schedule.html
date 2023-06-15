@@ -29,7 +29,7 @@ title: The Schedule
 		margin-bottom: 0.5rem;
 	}
 
-	.timeline ul li .content p {
+	.timeline ul li .card p {
 		padding: 5px 0px 15px 0px;
 	}
 
@@ -45,7 +45,7 @@ title: The Schedule
 		transition: .5s;
 	}
 
-	.timeline ul li .content.hoverable:hover {
+	.timeline ul li .card.hoverable:hover {
 		background-color: #fddbe3;
 	}
 
@@ -62,30 +62,30 @@ title: The Schedule
 
 	}
 
-	.content p {
+	.card p {
 		margin-bottom: 0rem;
 	}
 
-	.scrolling-wrapper {
-		
-	}
+	.scrolling-wrapper {}
 
 	.scrolling-wrapper {
 		display: flex;
-    	flex-wrap: nowrap;
-    	overflow-x: scroll;
-    	-webkit-overflow-scrolling: touch;  /* add this line */
+		flex-wrap: nowrap;
+		overflow-x: scroll;
+		-webkit-overflow-scrolling: touch;
+		/* add this line */
 		scroll-snap-type: x mandatory;
 
 	}
-		.scrolling-wrapper .content {
-			display: inline-block;
-			min-width: min(400px, 90%);
-			margin-right: 0.5rem;
-			scroll-snap-align: start;
-		}
 
-	.content {
+	.scrolling-wrapper .card {
+		display: inline-block;
+		min-width: min(400px, 90%);
+		margin-right: 0.5rem;
+		scroll-snap-align: start;
+	}
+
+	.card {
 		padding: 1rem;
 		border-radius: 15px;
 		border: 1px solid #bf165f26;
@@ -113,7 +113,7 @@ title: The Schedule
 		position: relative;
 		display: inline-block;
 		width: 50px;
-		
+
 	}
 
 	.portraitPhoto img:first-child,
@@ -139,15 +139,19 @@ title: The Schedule
 		max-height: none;
 		max-width: none;
 	}
+
 	.participants .portraitPhoto {
-    margin-inline-end: -15px;  /* adjust as needed */
-}
-.participants .portraitPhoto:first-child {
-    z-index: 1;
-}
-.participants{
-	    padding-right: 1rem;
-}
+		margin-inline-end: -15px;
+		/* adjust as needed */
+	}
+
+	.participants .portraitPhoto:first-child {
+		z-index: 1;
+	}
+
+	.participants {
+		padding-right: 1rem;
+	}
 </style>
 <div class="timeline content-color-default">
 	<h3 class="mb-2 date">5th June 2023</h3>
@@ -155,51 +159,79 @@ title: The Schedule
 		<li>
 			<span>Morning</span>
 			<div class="scrolling-wrapper">
-				<div class="content">
+				<div class="card">
 					<h5>CX691: HKG to SIN</h5>
 					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						the industry's standard dummy text ever since the 1500s.
+
+						The morning flight from Hong Kong International Airport landed at Singapore Changi.
 					</p>
 					<div class="participants">
-						<div class=" portraitPhoto">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04200B3.jpg"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04200C.png"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-						</div>
-						<div class="portraitPhoto">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04134B1.jpg"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04134C.png"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-						</div>
-						<div class="portraitPhoto">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04172B2.jpg"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04172C.png"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-						</div>
-						
-						
+						{% include schedule_user.html user="WHL" %}
+						{% include schedule_user.html user="KCL" %}
+						{% include schedule_user.html user="QTA" %}
+						{% include schedule_user.html user="HB" %}
+						{% include schedule_user.html user="LBH" %}
+						{% include schedule_user.html user="HWL" %}
+						{% include schedule_user.html user="NT" %}
+						{% include schedule_user.html user="JX" %}
+						{% include schedule_user.html user="CWY" %}
 					</div>
 
 				</div>
-				<div class="content">
-					<h5>What Is Lorem Ipsum?</h5>
+				<div class="card">
+					<h5>CX691: HKG to SIN</h5>
 					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-						been
-						the industry's standard dummy text ever since the 1500s.
+
+						The morning flight from Hong Kong International Airport landed at Singapore Changi.
 					</p>
+					<div class="participants">
+						{% include schedule_user.html user="LA" %}
+					</div>
+
 				</div>
-				<div class="content">
-					<h5>What Is Lorem Ipsum?</h5>
+				<div class="card">
+					<h5>CX691: HKG to SIN</h5>
 					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-						been
-						the industry's standard dummy text ever since the 1500s.
+
+						The morning flight from Hong Kong International Airport landed at Singapore Changi.
 					</p>
+					<div class="participants">
+						{% include schedule_user.html user="MH" %}
+					</div>
+
+				</div>
+				<div class="card">
+					<h5>CX691: HKG to SIN</h5>
+					<p>
+
+						The morning flight from Hong Kong International Airport landed at Singapore Changi.
+					</p>
+					<div class="participants">
+						{% include schedule_user.html user="KJ" %}
+					</div>
+
+				</div>
+				<div class="card">
+					<h5>CX691: HKG to SIN</h5>
+					<p>
+
+						The morning flight from Hong Kong International Airport landed at Singapore Changi.
+					</p>
+					<div class="participants">
+						{% include schedule_user.html user="ML" %}
+					</div>
+
+				</div>
+				<div class="card">
+					<h5>CX691: HKG to SIN</h5>
+					<p>
+
+						The morning flight from Hong Kong International Airport landed at Singapore Changi.
+					</p>
+					<div class="participants">
+						{% include schedule_user.html user="THL" %}
+					</div>
+
 				</div>
 			</div>
 		</li>
@@ -207,7 +239,7 @@ title: The Schedule
 			<span>3:00 PM</span>
 			<div class="">
 				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
-					<div class="content hoverable">
+					<div class="card hoverable">
 						<h5> Day One </h5>
 						<p>
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -221,14 +253,14 @@ title: The Schedule
 		<li>
 			<span>7:00 PM</span>
 			<div class="scrolling-wrapper">
-				<div class="content">
+				<div class="card">
 					<h5>What Is Lorem Ipsum?</h5>
 					<p>
 						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
 						the industry's standard dummy text ever since the 1500s.
 					</p>
 				</div>
-				<div class="content">
+				<div class="card">
 					<h5>What Is Lorem Ipsum?</h5>
 					<p>
 						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
@@ -247,7 +279,7 @@ title: The Schedule
 		<li>
 			<span>Morning</span>
 			<div class="scrolling-wrapper">
-				<div class="content">
+				<div class="card">
 					<h5>CX691: HKG to SIN</h5>
 					<p>
 						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
@@ -326,12 +358,12 @@ title: The Schedule
 							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04172C.png"
 								class="img-fluid rounded-circle block lg:hidden" alt="">
 						</div>
-						
-						
+
+
 					</div>
 
 				</div>
-				<div class="content">
+				<div class="card">
 					<h5>What Is Lorem Ipsum?</h5>
 					<p>
 						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -339,7 +371,7 @@ title: The Schedule
 						the industry's standard dummy text ever since the 1500s.
 					</p>
 				</div>
-				<div class="content">
+				<div class="card">
 					<h5>What Is Lorem Ipsum?</h5>
 					<p>
 						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -353,7 +385,7 @@ title: The Schedule
 			<span>3:00 PM</span>
 			<div class="">
 				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
-					<div class="content hoverable">
+					<div class="card hoverable">
 						<h5> Day One </h5>
 						<p>
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -367,14 +399,14 @@ title: The Schedule
 		<li>
 			<span>7:00 PM</span>
 			<div class="scrolling-wrapper">
-				<div class="content">
+				<div class="card">
 					<h5>What Is Lorem Ipsum?</h5>
 					<p>
 						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
 						the industry's standard dummy text ever since the 1500s.
 					</p>
 				</div>
-				<div class="content">
+				<div class="card">
 					<h5>What Is Lorem Ipsum?</h5>
 					<p>
 						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
