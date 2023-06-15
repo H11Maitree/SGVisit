@@ -85,6 +85,10 @@ title: The Schedule
 		scroll-snap-align: start;
 	}
 
+	.scrolling-wrapper a{
+		min-width: min(400px, 90%);
+	}
+
 	.card {
 		padding: 1rem;
 		border-radius: 15px;
@@ -242,8 +246,7 @@ title: The Schedule
 					<div class="card hoverable">
 						<h5> Day One </h5>
 						<p>
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-							been the industry's standard dummy text ever since the 1500s.
+							This is an example of the event that have it own page. Click to nevigate to the post.
 						</p>
 					</div>
 				</a>
@@ -251,24 +254,42 @@ title: The Schedule
 			</div>
 		</li>
 		<li>
-			<span>7:00 PM</span>
+			<span>8:00 PM</span>
 			<div class="scrolling-wrapper">
-				<div class="card">
-					<h5>What Is Lorem Ipsum?</h5>
+			<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
+				<div class="card hoverable">
+					<h5>99 Old Trees Durian</h5>
 					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						the industry's standard dummy text ever since the 1500s.
+
+						I think I will assing marcro to write the content for this page.
+					</p>
+					<div class="participants">
+						{% include schedule_user.html user="HB" %}
+						{% include schedule_user.html user="MH" %}
+						{% include schedule_user.html user="THL" %}
+						{% include schedule_user.html user="HWL" %}
+						{% include schedule_user.html user="NT" %}
+						{% include schedule_user.html user="JX" %}
+						{% include schedule_user.html user="CWY" %}
+					</div>
+
+				</div>
+				</a>
+				<div class="card">
+					<h5>Where are others people goes?</h5>
+					<p>
+						Please let me know ASAP!
 					</p>
 				</div>
 				<div class="card">
-					<h5>What Is Lorem Ipsum?</h5>
+					<h5>Where are others people goes?</h5>
 					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						the industry's standard dummy text ever since the 1500s.
+						Please let me know ASAP!
 					</p>
 				</div>
 			</div>
 		</li>
+		
 
 	</ul>
 
