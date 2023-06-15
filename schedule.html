@@ -67,21 +67,23 @@ title: The Schedule
 	}
 
 	.scrolling-wrapper {
-		-webkit-overflow-scrolling: touch;
+		
 	}
 
 	.scrolling-wrapper {
 		display: flex;
-		flex-wrap: nowrap;
-		overflow-x: auto;
+    	flex-wrap: nowrap;
+    	overflow-x: auto;
+    	-webkit-overflow-scrolling: touch;  /* add this line */
 
-		.content {
+		
+
+	}
+		.scrolling-wrapper .content {
 			display: inline-block;
 			min-width: min(400px, 90%);
 			margin-right: 0.5rem;
 		}
-
-	}
 
 	.content {
 		padding: 1rem;
