@@ -4,220 +4,303 @@ layout: page
 title: The Schedule
 ---
 <style>
-.timeline{
-}
-.timeline ul{
-	list-style-type:none;
-	border-left:2px solid #1C1C1B;
-	padding:10px 5px;
-}
-.timeline ul li{
-	padding: 0.5rem;
-	position:relative;
-	cursor:pointer;
-	transition:.5s;
-}
-.timeline ul li span{
-	display:inline-block;
-	background-color:#BF165E;
-    color: white;
-	border-radius:25px;
-	padding:2px 5px;
-	text-align:center;
-    margin-bottom: 0.5rem;
-}
+	.timeline {}
 
-.timeline ul li .content p{
-	padding:5px 0px 15px 0px;
-}
-.timeline ul li:before{
-	position:absolute;
-	content:'';
-	width:10px;
-	height:10px;
-	background-color:#aa1454;
-	border-radius:50%;
-	left:-11px;
-	top:28px;
-	transition:.5s;
-}
-.timeline ul li .content.hoverable:hover{
-	background-color:#fddbe3;
-}
-.timeline ul li:hover:before{
-	background-color:#ff3c6a;
-	box-shadow:0px 0px 10px 2px #ff3c6a;
-}
-@media (max-width:300px){
-	.timeline{
-		width:100%;
-		padding:30px 5px 30px 10px;
+	.timeline ul {
+		list-style-type: none;
+		border-left: 2px solid #1C1C1B;
+		padding: 10px 5px;
 	}
 
-}
+	.timeline ul li {
+		padding: 0.5rem;
+		position: relative;
+		cursor: pointer;
+		transition: .5s;
+	}
 
-.content p{
-    margin-bottom: 0rem;
-}
+	.timeline ul li span {
+		display: inline-block;
+		background-color: #BF165E;
+		color: white;
+		border-radius: 25px;
+		padding: 2px 5px;
+		text-align: center;
+		margin-bottom: 0.5rem;
+	}
 
-.scrolling-wrapper {
-  -webkit-overflow-scrolling: touch;
-}
+	.timeline ul li .content p {
+		padding: 5px 0px 15px 0px;
+	}
 
-.scrolling-wrapper {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
+	.timeline ul li:before {
+		position: absolute;
+		content: '';
+		width: 10px;
+		height: 10px;
+		background-color: #aa1454;
+		border-radius: 50%;
+		left: -11px;
+		top: 28px;
+		transition: .5s;
+	}
 
-  .content {
-    display: inline-block;
-    min-width: min(400px, 90%);
-    margin-right: 0.5rem;
-  }
-  
-}
+	.timeline ul li .content.hoverable:hover {
+		background-color: #fddbe3;
+	}
 
-.content {
-    padding: 1rem;
-    border-radius: 15px;
-    border: 1px solid #bf165f26;
-}
-.date{
-    color: #bf165e;
-    font-weight: bold;
-}
+	.timeline ul li:hover:before {
+		background-color: #ff3c6a;
+		box-shadow: 0px 0px 10px 2px #ff3c6a;
+	}
 
-h5{
-    font-weight: bold;
-}
+	@media (max-width:300px) {
+		.timeline {
+			width: 100%;
+			padding: 30px 5px 30px 10px;
+		}
 
-ul{
-    margin-bottom: 1.5rem;
-}
+	}
 
-a p{
-    text-decoration: none;
-    color: black;
+	.content p {
+		margin-bottom: 0rem;
+	}
+
+	.scrolling-wrapper {
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.scrolling-wrapper {
+		display: flex;
+		flex-wrap: nowrap;
+		overflow-x: auto;
+
+		.content {
+			display: inline-block;
+			min-width: min(400px, 90%);
+			margin-right: 0.5rem;
+		}
+
+	}
+
+	.content {
+		padding: 1rem;
+		border-radius: 15px;
+		border: 1px solid #bf165f26;
+	}
+
+	.date {
+		color: #bf165e;
+		font-weight: bold;
+	}
+
+	h5 {
+		font-weight: bold;
+	}
+
+	ul {
+		margin-bottom: 1.5rem;
+	}
+
+	a p {
+		text-decoration: none;
+		color: black;
+	}
+
+	.portraitPhoto {
+		position: relative;
+		display: inline-block;
+		width: 50px;
+	}
+
+	.portraitPhoto img:first-child,
+	.portraitPhoto img:nth-child(2) {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.portraitPhoto img:first-child {
+		opacity: 100%;
+	}
+
+	.portraitPhoto img:nth-child(2) {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.img-fluid {
+		max-height: none;
+		max-width: none;
+	}
+	.participants .portraitPhoto:not(:first-child) {
+    margin-inline-start: -15px;  /* adjust as needed */
+}
+.participants .portraitPhoto:first-child {
+    z-index: 1;
 }
 </style>
 <div class="timeline content-color-default">
-<h3 class="mb-2 date">5th June 2023</h3>
-		<ul>
-			<li>
-				<span>Morning</span>
-        <div class="scrolling-wrapper">
-				  <div class="content">
+	<h3 class="mb-2 date">5th June 2023</h3>
+	<ul>
+		<li>
+			<span>Morning</span>
+			<div class="scrolling-wrapper">
+				<div class="content">
 					<h5>CX691: HKG to SIN</h5>
 					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever since the 1500s.
 					</p>
+					<div class="participants">
+						<div class=" portraitPhoto">
+							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04200B3.jpg"
+								class="img-fluid rounded-circle block lg:hidden" alt="">
+							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04200C.png"
+								class="img-fluid rounded-circle block lg:hidden" alt="">
+						</div>
+						<div class="portraitPhoto">
+							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04134B1.jpg"
+								class="img-fluid rounded-circle block lg:hidden" alt="">
+							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04134C.png"
+								class="img-fluid rounded-circle block lg:hidden" alt="">
+						</div>
+						<div class="portraitPhoto">
+							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04172B2.jpg"
+								class="img-fluid rounded-circle block lg:hidden" alt="">
+							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04172C.png"
+								class="img-fluid rounded-circle block lg:hidden" alt="">
+						</div>
+						
+						
+					</div>
+
 				</div>
-          <div class="content">
+				<div class="content">
 					<h5>What Is Lorem Ipsum?</h5>
 					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+						been
+						the industry's standard dummy text ever since the 1500s.
 					</p>
 				</div>
-          <div class="content">
+				<div class="content">
 					<h5>What Is Lorem Ipsum?</h5>
 					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+						been
+						the industry's standard dummy text ever since the 1500s.
 					</p>
 				</div>
-        </div>
-			</li>
-			<li>
-				<span>3:00 PM</span>
-        <div class="">
-        <a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
-				  <div class="content hoverable">
-					<h5> Day One </h5>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-					</p>
-				</div>
-                </a>
-          
-        </div>
-			</li>
-            <li>
-				<span>7:00 PM</span>
-        <div class="scrolling-wrapper">
-				  <div class="content">
+			</div>
+		</li>
+		<li>
+			<span>3:00 PM</span>
+			<div class="">
+				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
+					<div class="content hoverable">
+						<h5> Day One </h5>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+							been the industry's standard dummy text ever since the 1500s.
+						</p>
+					</div>
+				</a>
+
+			</div>
+		</li>
+		<li>
+			<span>7:00 PM</span>
+			<div class="scrolling-wrapper">
+				<div class="content">
 					<h5>What Is Lorem Ipsum?</h5>
 					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever since the 1500s.
 					</p>
 				</div>
-          <div class="content">
+				<div class="content">
 					<h5>What Is Lorem Ipsum?</h5>
 					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever since the 1500s.
 					</p>
 				</div>
-        </div>
-			</li>
-            
-		</ul>
-    
-    <h3 class="mb-2 date">6th June 2023</h3>
-		<ul>
-			<li>
-				<span>Morning</span>
-        <div class="scrolling-wrapper">
-				  <div class="content">
+			</div>
+		</li>
+
+	</ul>
+
+	<h3 class="mb-2 date">6th June 2023</h3>
+	<ul>
+		<li>
+			<span>Morning</span>
+			<div class="scrolling-wrapper">
+				<div class="content">
 					<h5>CX691: HKG to SIN</h5>
 					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever since the 1500s.
 					</p>
+
 				</div>
-          <div class="content">
-					<h5>What Is Lorem Ipsum?</h5>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-					</p>
-				</div>
-          <div class="content">
-					<h5>What Is Lorem Ipsum?</h5>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-					</p>
-				</div>
-        </div>
-			</li>
-			<li>
-				<span>3:00 PM</span>
-        <div class="">
-        <a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
-				  <div class="content hoverable">
-					<h5> Day One </h5>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-					</p>
-				</div>
-                </a>
-          
-        </div>
-			</li>
-            <li>
-				<span>7:00 PM</span>
-        <div class="scrolling-wrapper">
-				  <div class="content">
-					<h5>What Is Lorem Ipsum?</h5>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-					</p>
-				</div>
-          <div class="content">
-					<h5>What Is Lorem Ipsum?</h5>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-					</p>
-				</div>
-        </div>
-			</li>
-            
-		</ul>
+			</div>
+			<div class="content">
+				<h5>What Is Lorem Ipsum?</h5>
+				<p>
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+					industry's standard dummy text ever since the 1500s.
+				</p>
+			</div>
+			<div class="content">
+				<h5>What Is Lorem Ipsum?</h5>
+				<p>
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+					industry's standard dummy text ever since the 1500s.
+				</p>
+			</div>
+</div>
+</li>
+<li>
+	<span>3:00 PM</span>
+	<div class="">
+		<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
+			<div class="content hoverable">
+				<h5> Day One </h5>
+				<p>
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+					the
+					industry's standard dummy text ever since the 1500s.
+				</p>
+			</div>
+		</a>
+
 	</div>
+</li>
+<li>
+	<span>7:00 PM</span>
+	<div class="scrolling-wrapper">
+		<div class="content">
+			<h5>What Is Lorem Ipsum?</h5>
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+				industry's standard dummy text ever since the 1500s.
+			</p>
+		</div>
+		<div class="content">
+			<h5>What Is Lorem Ipsum?</h5>
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+				industry's standard dummy text ever since the 1500s.
+			</p>
+		</div>
+	</div>
+</li>
+
+</ul>
+</div>
 
 </body>
