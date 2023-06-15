@@ -73,16 +73,16 @@ title: The Schedule
 	.scrolling-wrapper {
 		display: flex;
     	flex-wrap: nowrap;
-    	overflow-x: auto;
+    	overflow-x: scroll;
     	-webkit-overflow-scrolling: touch;  /* add this line */
-
-		
+		scroll-snap-type: x mandatory;
 
 	}
 		.scrolling-wrapper .content {
 			display: inline-block;
 			min-width: min(400px, 90%);
 			margin-right: 0.5rem;
+			scroll-snap-align: start;
 		}
 
 	.content {
