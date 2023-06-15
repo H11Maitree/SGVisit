@@ -3,14 +3,221 @@ permalink: /schedule.html
 layout: page
 title: The Schedule
 ---
+<style>
+.timeline{
+}
+.timeline ul{
+	list-style-type:none;
+	border-left:2px solid #1C1C1B;
+	padding:10px 5px;
+}
+.timeline ul li{
+	padding: 0.5rem;
+	position:relative;
+	cursor:pointer;
+	transition:.5s;
+}
+.timeline ul li span{
+	display:inline-block;
+	background-color:#BF165E;
+    color: white;
+	border-radius:25px;
+	padding:2px 5px;
+	text-align:center;
+    margin-bottom: 0.5rem;
+}
 
-<div data-bind="message" class="message user_content enhanced"><p>The following shows the tentative schedule for the academic activities and company visit on 6-7 June 2023:</p><p>&nbsp;</p><h3>Tuesday 6 June 2023</h3><table style="border-collapse: collapse; width: 100.316%; height: 206px;" border="1"><tbody><tr style="height: 28px;"><td style="width: 16.7006%; height: 37px;">8:15am</td><td style="width: 83.2419%; height: 37px;">Gather at hotel lobby</td></tr><tr style="height: 28px;"><td style="width: 16.7006%; height: 38px;">9:20am&nbsp;</td><td style="width: 83.2419%; height: 38px;">Arrive at NUS campus&nbsp;</td></tr><tr style="height: 28px;"><td style="width: 16.7006%; height: 41px;">9:50am&nbsp;</td><td style="width: 83.2419%; height: 41px;">Arrive at <a class="inline_disabled external" href="https://nusmods.com/venues/I3-AUD" target="_blank" rel="noreferrer noopener"><span>I3-AUD</span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg" style="width:1em; height:1em; vertical-align:middle; fill:currentColor">
-    <path d="M1226.66667,267 C1314.88,267 1386.66667,338.786667 1386.66667,427 L1386.66667,427 L1386.66667,853.666667 L1280,853.666667 L1280,693.666667 L106.666667,693.666667 L106.666667,1493.66667 C106.666667,1523 130.56,1547 160,1547 L160,1547 L1226.66667,1547 C1256.10667,1547 1280,1523 1280,1493.66667 L1280,1493.66667 L1280,1280.33333 L1386.66667,1280.33333 L1386.66667,1493.66667 C1386.66667,1581.88 1314.88,1653.66667 1226.66667,1653.66667 L1226.66667,1653.66667 L160,1653.66667 C71.7866667,1653.66667 0,1581.88 0,1493.66667 L0,1493.66667 L0,427 C0,338.786667 71.7866667,267 160,267 L160,267 Z M1584.37333,709.293333 L1904.37333,1029.29333 C1925.17333,1050.09333 1925.17333,1083.90667 1904.37333,1104.70667 L1904.37333,1104.70667 L1584.37333,1424.70667 L1508.96,1349.29333 L1737.86667,1120.38667 L906.613333,1120.38667 L906.613333,1013.72 L1737.86667,1013.72 L1508.96,784.706667 L1584.37333,709.293333 Z M1226.66667,373.666667 L160,373.666667 C130.56,373.666667 106.666667,397.666667 106.666667,427 L106.666667,427 L106.666667,587 L1280,587 L1280,427 C1280,397.666667 1256.10667,373.666667 1226.66667,373.666667 L1226.66667,373.666667 Z" stroke="none" stroke-width="1" fill-rule="evenodd"></path>
-</svg>
-<span class="screenreader-only">Links to an external site.</span></span></a></td></tr><tr style="height: 28px;"><td style="width: 16.7006%; height: 14px;">10:00am - 12:00 noon</td><td style="width: 83.2419%; height: 14px;"><p>Attend the lecture (which will be recorded) for the course CS3243 Introduction to Artificial Intelligence taught by Dr. Daren Ler&nbsp;</p></td></tr><tr style="height: 28px;"><td style="width: 16.7006%; height: 37px;">12:00noon - 1:45pm</td><td style="width: 83.2419%; height: 37px;">Group Lunch at <span>Formosa Delights (</span><a href="http://www.formosadelights.com/about" target="_blank" class="external" rel="noreferrer noopener"><span>http://www.formosadelights.com/about</span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg" style="width:1em; height:1em; vertical-align:middle; fill:currentColor">
-    <path d="M1226.66667,267 C1314.88,267 1386.66667,338.786667 1386.66667,427 L1386.66667,427 L1386.66667,853.666667 L1280,853.666667 L1280,693.666667 L106.666667,693.666667 L106.666667,1493.66667 C106.666667,1523 130.56,1547 160,1547 L160,1547 L1226.66667,1547 C1256.10667,1547 1280,1523 1280,1493.66667 L1280,1493.66667 L1280,1280.33333 L1386.66667,1280.33333 L1386.66667,1493.66667 C1386.66667,1581.88 1314.88,1653.66667 1226.66667,1653.66667 L1226.66667,1653.66667 L160,1653.66667 C71.7866667,1653.66667 0,1581.88 0,1493.66667 L0,1493.66667 L0,427 C0,338.786667 71.7866667,267 160,267 L160,267 Z M1584.37333,709.293333 L1904.37333,1029.29333 C1925.17333,1050.09333 1925.17333,1083.90667 1904.37333,1104.70667 L1904.37333,1104.70667 L1584.37333,1424.70667 L1508.96,1349.29333 L1737.86667,1120.38667 L906.613333,1120.38667 L906.613333,1013.72 L1737.86667,1013.72 L1508.96,784.706667 L1584.37333,709.293333 Z M1226.66667,373.666667 L160,373.666667 C130.56,373.666667 106.666667,397.666667 106.666667,427 L106.666667,427 L106.666667,587 L1280,587 L1280,427 C1280,397.666667 1256.10667,373.666667 1226.66667,373.666667 L1226.66667,373.666667 Z" stroke="none" stroke-width="1" fill-rule="evenodd"></path>
-</svg>
-<span class="screenreader-only">Links to an external site.</span></span></a>). Reservation has been made for our large group at 12:15pm so we need to show up on time</td></tr><tr style="height: 28px;"><td style="width: 16.7006%; height: 39px;">2:00pm&nbsp;</td><td style="width: 83.2419%; height: 39px;">Visit Prof. Wang Xinchao's lab and meet his researchers [NUS Host: Prof. Soh Wee Seng]</td></tr></tbody></table><p>&nbsp;</p><h3>Wednesday 7 June 2023</h3><table style="border-collapse: collapse; width: 98.0126%; height: 259px;" border="1"><tbody><tr style="height: 28px;"><td style="width: 16.7006%; height: 38px;">10:00am</td><td style="width: 83.2419%; height: 38px;">Gather at hotel lobby</td></tr><tr style="height: 28px;"><td style="width: 16.7006%; height: 35px;">10:50am&nbsp;</td><td style="width: 83.2419%; height: 35px;">Arrive at Carousell (<span>79 Ayer Rajah Crescent, #03-01, Singapore 139955)</span></td></tr><tr style="height: 28px;"><td style="width: 16.7006%; height: 35px;">11:00am - 12:00 noon</td><td style="width: 83.2419%; height: 35px;">Visit Carousell</td></tr><tr style="height: 28px;"><td style="width: 16.7006%; height: 41px;">12:00noon - 1:45pm</td><td style="width: 83.2419%; height: 41px;">Group Lunch at Chin Chin Eating House (<a class="inline_disabled external" style="font-family: inherit; font-size: 1rem;" href="https://chinchineatinghouse.has.restaurant/" target="_blank">https://chinchineatinghouse.has.restaurant/</a><span style="color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;">)</span></td></tr><tr style="height: 28px;"><td style="width: 16.7006%; height: 28px;">2:00pm - 3:00pm</td><td style="width: 83.2419%; height: 28px;">SMU - Introduction of Programs (Undergraduate, Master, PhD) / Student Activities / Sharing Session by Dr. Yang Guomin and Dr. He Shengfeng (CityU Graduates) [SMU Host: Prof. Ngo Chong Wah]</td></tr><tr style="height: 11px;"><td style="width: 16.7006%; height: 41px;">3:00pm - 4:00pm</td><td style="width: 83.2419%; height: 41px;">SMU - Project Demos: FoodAI, IoT (Lidar and camera)</td></tr><tr style="height: 10px;"><td style="width: 16.7006%; height: 41px;">4:00pm - 5:00pm</td><td style="width: 83.2419%; height: 41px;">SMU - Campus Tour</td></tr></tbody></table><p>&nbsp;</p><h3>Thursday 8 June 2023</h3><p><span>We can reserve Thursday 8 June 2023 for activities to learn about cultural/natural/technical aspects in Singapore, and we will let teams to plan for relevant activities. Team leaders can discuss with your team members to come up with your proposed plan, and post it by replying to this message.</span></p><p><span>It seems that Singapore is giving visitors a free activity <a class="inline_disabled external" href="https://www.visitsingapore.com/en-deals/singaporewards/" target="_blank" rel="noreferrer noopener"><span>https://www.visitsingapore.com/en-deals/singaporewards/</span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg" style="width:1em; height:1em; vertical-align:middle; fill:currentColor">
-    <path d="M1226.66667,267 C1314.88,267 1386.66667,338.786667 1386.66667,427 L1386.66667,427 L1386.66667,853.666667 L1280,853.666667 L1280,693.666667 L106.666667,693.666667 L106.666667,1493.66667 C106.666667,1523 130.56,1547 160,1547 L160,1547 L1226.66667,1547 C1256.10667,1547 1280,1523 1280,1493.66667 L1280,1493.66667 L1280,1280.33333 L1386.66667,1280.33333 L1386.66667,1493.66667 C1386.66667,1581.88 1314.88,1653.66667 1226.66667,1653.66667 L1226.66667,1653.66667 L160,1653.66667 C71.7866667,1653.66667 0,1581.88 0,1493.66667 L0,1493.66667 L0,427 C0,338.786667 71.7866667,267 160,267 L160,267 Z M1584.37333,709.293333 L1904.37333,1029.29333 C1925.17333,1050.09333 1925.17333,1083.90667 1904.37333,1104.70667 L1904.37333,1104.70667 L1584.37333,1424.70667 L1508.96,1349.29333 L1737.86667,1120.38667 L906.613333,1120.38667 L906.613333,1013.72 L1737.86667,1013.72 L1508.96,784.706667 L1584.37333,709.293333 Z M1226.66667,373.666667 L160,373.666667 C130.56,373.666667 106.666667,397.666667 106.666667,427 L106.666667,427 L106.666667,587 L1280,587 L1280,427 C1280,397.666667 1256.10667,373.666667 1226.66667,373.666667 L1226.66667,373.666667 Z" stroke="none" stroke-width="1" fill-rule="evenodd"></path>
-</svg>
-<span class="screenreader-only">Links to an external site.</span></span></a>. So once your team has finalized your plan, your team members may consider applying one related activity there.</span></p></div>
+.timeline ul li .content p{
+	padding:5px 0px 15px 0px;
+}
+.timeline ul li:before{
+	position:absolute;
+	content:'';
+	width:10px;
+	height:10px;
+	background-color:#aa1454;
+	border-radius:50%;
+	left:-11px;
+	top:28px;
+	transition:.5s;
+}
+.timeline ul li .content.hoverable:hover{
+	background-color:#fddbe3;
+}
+.timeline ul li:hover:before{
+	background-color:#ff3c6a;
+	box-shadow:0px 0px 10px 2px #ff3c6a;
+}
+@media (max-width:300px){
+	.timeline{
+		width:100%;
+		padding:30px 5px 30px 10px;
+	}
+
+}
+
+.content p{
+    margin-bottom: 0rem;
+}
+
+.scrolling-wrapper {
+  -webkit-overflow-scrolling: touch;
+}
+
+.scrolling-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+  .content {
+    display: inline-block;
+    min-width: min(400px, 90%);
+    margin-right: 0.5rem;
+  }
+  
+}
+
+.content {
+    padding: 1rem;
+    border-radius: 15px;
+    border: 1px solid #bf165f26;
+}
+.date{
+    color: #bf165e;
+    font-weight: bold;
+}
+
+h5{
+    font-weight: bold;
+}
+
+ul{
+    margin-bottom: 1.5rem;
+}
+
+a p{
+    text-decoration: none;
+    color: black;
+}
+</style>
+<div class="timeline content-color-default">
+<h3 class="mb-2 date">5th June 2023</h3>
+		<ul>
+			<li>
+				<span>Morning</span>
+        <div class="scrolling-wrapper">
+				  <div class="content">
+					<h5>CX691: HKG to SIN</h5>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+					</p>
+				</div>
+          <div class="content">
+					<h5>What Is Lorem Ipsum?</h5>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+					</p>
+				</div>
+          <div class="content">
+					<h5>What Is Lorem Ipsum?</h5>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+					</p>
+				</div>
+        </div>
+			</li>
+			<li>
+				<span>3:00 PM</span>
+        <div class="">
+        <a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
+				  <div class="content hoverable">
+					<h5> Day One </h5>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+					</p>
+				</div>
+                </a>
+          
+        </div>
+			</li>
+            <li>
+				<span>7:00 PM</span>
+        <div class="scrolling-wrapper">
+				  <div class="content">
+					<h5>What Is Lorem Ipsum?</h5>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+					</p>
+				</div>
+          <div class="content">
+					<h5>What Is Lorem Ipsum?</h5>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+					</p>
+				</div>
+        </div>
+			</li>
+            
+		</ul>
+    
+    <h3 class="mb-2 date">6th June 2023</h3>
+		<ul>
+			<li>
+				<span>Morning</span>
+        <div class="scrolling-wrapper">
+				  <div class="content">
+					<h5>CX691: HKG to SIN</h5>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+					</p>
+				</div>
+          <div class="content">
+					<h5>What Is Lorem Ipsum?</h5>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+					</p>
+				</div>
+          <div class="content">
+					<h5>What Is Lorem Ipsum?</h5>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+					</p>
+				</div>
+        </div>
+			</li>
+			<li>
+				<span>3:00 PM</span>
+        <div class="">
+        <a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
+				  <div class="content hoverable">
+					<h5> Day One </h5>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+					</p>
+				</div>
+                </a>
+          
+        </div>
+			</li>
+            <li>
+				<span>7:00 PM</span>
+        <div class="scrolling-wrapper">
+				  <div class="content">
+					<h5>What Is Lorem Ipsum?</h5>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+					</p>
+				</div>
+          <div class="content">
+					<h5>What Is Lorem Ipsum?</h5>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+					</p>
+				</div>
+        </div>
+			</li>
+            
+		</ul>
+	</div>
+
+</body>
