@@ -1,8 +1,5 @@
 <div id="{{include.id}}" style="height: 40vh; margin-left: auto; margin-right: auto; padding-left: 0px; padding-right: 0px; margin-bottom: 1.5rem;"></div>
 
-<script src="{{ site.baseurl }}/assets/js/three.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/panolens.min.js"></script>
-
 <script>
 {% if include.src contains 'https://' %}
   panorama = new PANOLENS.ImagePanorama("{{ include.src }}");
