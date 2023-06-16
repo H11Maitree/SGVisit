@@ -79,14 +79,18 @@ title: The Schedule
 	}
 
 	.scrolling-wrapper .card {
-		display: inline-block;
 		min-width: min(400px, 90%);
 		margin-right: 0.5rem;
 		scroll-snap-align: start;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 	}
 
 	.scrolling-wrapper a {
+		display: inline-block;
 		min-width: min(400px, 90%);
+		scroll-snap-align: start;
 	}
 
 	.card {
@@ -156,6 +160,10 @@ title: The Schedule
 	.participants {
 		padding-right: 1rem;
 	}
+
+	a>.hoverable {
+		height: 100%;
+	}
 </style>
 <div class="timeline content-color-default">
 	<h3 class="mb-2 date">Monday, 5th June 2023</h3>
@@ -164,11 +172,13 @@ title: The Schedule
 			<span>Morning</span>
 			<div class="scrolling-wrapper">
 				<div class="card">
-					<h5>CX691: HKG to SIN</h5>
-					<p>
+					<div>
+						<h5>CX691: HKG to SIN</h5>
+						<p>
 
-						The morning flight from Hong Kong International Airport landed at Singapore Changi.
-					</p>
+							The morning flight from Hong Kong International Airport landed at Singapore Changi.
+						</p>
+					</div>
 					<div class="participants">
 						{% include schedule_user.html user="WHL" %}
 						{% include schedule_user.html user="KCL" %}
@@ -183,55 +193,65 @@ title: The Schedule
 
 				</div>
 				<div class="card">
-					<h5>CX691: HKG to SIN</h5>
-					<p>
+					<div>
+						<h5>TR981: HKG to SIN</h5>
+						<p>
 
-						The morning flight from Hong Kong International Airport landed at Singapore Changi.
-					</p>
+							The morning flight from Hong Kong International Airport landed at Singapore Changi.
+						</p>
+					</div>
 					<div class="participants">
 						{% include schedule_user.html user="LA" %}
 					</div>
 
 				</div>
 				<div class="card">
-					<h5>CX691: HKG to SIN</h5>
-					<p>
+					<div>
+						<h5>FD357: DMK to SIN</h5>
+						<p>
 
-						The morning flight from Hong Kong International Airport landed at Singapore Changi.
-					</p>
+							The morning flight from Don Mueang International Airport landed at Singapore Changi.
+						</p>
+					</div>
 					<div class="participants">
 						{% include schedule_user.html user="MH" %}
 					</div>
 
 				</div>
 				<div class="card">
-					<h5>CX691: HKG to SIN</h5>
-					<p>
+					<div>
+						<h5>CX691: HKG to SIN</h5>
+						<p>
 
-						The morning flight from Hong Kong International Airport landed at Singapore Changi.
-					</p>
+							The morning flight from Hong Kong International Airport landed at Singapore Changi.
+						</p>
+					</div>
 					<div class="participants">
 						{% include schedule_user.html user="KJ" %}
 					</div>
 
 				</div>
 				<div class="card">
-					<h5>CX691: HKG to SIN</h5>
-					<p>
+					<div>
+						<h5>BG584: DAC to SIN</h5>
+						<p>
 
-						The morning flight from Hong Kong International Airport landed at Singapore Changi.
-					</p>
+							The morning flight from Hazrat Shahjalal International Airport landed at Singapore Changi.
+						</p>
+					</div>
 					<div class="participants">
 						{% include schedule_user.html user="ML" %}
 					</div>
 
 				</div>
 				<div class="card">
-					<h5>CX691: HKG to SIN</h5>
-					<p>
+					<div>
+						<h5>SQ177: SGN to SIN</h5>
+						<p>
 
-						The morning flight from Hong Kong International Airport landed at Singapore Changi.
-					</p>
+							The morning flight from Tân Sơn Nhất International Airport landed at Singapore Changi.
+						</p>
+					</div>
 					<div class="participants">
 						{% include schedule_user.html user="THL" %}
 					</div>
@@ -240,29 +260,42 @@ title: The Schedule
 			</div>
 		</li>
 		<li>
-			<span>3:00 PM</span>
+		<span>Afternoon</span>
 			<div class="">
 				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
 					<div class="card hoverable">
-						<h5> Day One </h5>
-						<p>
-							This is an example of the event that have it own page. Click to nevigate to the post.
-						</p>
+						<div>
+							<h5> Merlion </h5>
+							<p>
+								This page will be authored by Huiyu BAI. The subject matter may vary
+								based on the content
+								writer's discretion.
+							</p>
+						</div>
+						<div class="participants">
+							{% include schedule_user.html user="QTA" %}
+							{% include schedule_user.html user="HB" %}
+							{% include schedule_user.html user="ML" %}
+							{% include schedule_user.html user="HWL" %}
+							{% include schedule_user.html user="NT" %}
+						</div>
 					</div>
 				</a>
 
 			</div>
 		</li>
 		<li>
-			<span>8:00 PM</span>
+			<span>Evening</span>
 			<div class="scrolling-wrapper">
-				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
+				<a href="{{ site.baseurl }}/a/2023/06/05/Ninety-Nine-Old-Trees.html">
 					<div class="card hoverable">
-						<h5>99 Old Trees Durian</h5>
-						<p>
+						<div>
+							<h5>Ninety-Nine Old Trees (99老樹)</h5>
+							<p>
 
-							I think I will assing Marcro to write the content for this page.
-						</p>
+								At Ninety-Nine Old Trees, a durian shop, patrons savor various durians and durian desserts. First-timer Nurda finds Mao Shan Wang durian's sweet-bitter flavor intriguing.
+							</p>
+						</div>
 						<div class="participants">
 							{% include schedule_user.html user="HB" %}
 							{% include schedule_user.html user="MH" %}
@@ -275,18 +308,26 @@ title: The Schedule
 
 					</div>
 				</a>
-				<div class="card">
-					<h5>Where did other people go?</h5>
-					<p>
-						Please let me know ASAP!
-					</p>
-				</div>
-				<div class="card">
-					<h5>Where did other people go?</h5>
-					<p>
-						Please let me know ASAP!
-					</p>
-				</div>
+				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
+					<div class="card hoverable">
+						<div>
+							<h5>The Malay Restaurants</h5>
+							<p>
+
+								This page will be authored by Lav ASRANI. The subject matter may vary based on the
+								content
+								writer's discretion.
+							</p>
+						</div>
+						<div class="participants">
+							{% include schedule_user.html user="QTA" %}
+							{% include schedule_user.html user="LA" %}
+							{% include schedule_user.html user="LBH" %}
+							{% include schedule_user.html user="ML" %}
+						</div>
+
+					</div>
+				</a>
 			</div>
 		</li>
 	</ul>
@@ -298,11 +339,14 @@ title: The Schedule
 			<div class="">
 				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
 					<div class="card hoverable">
-						<h5>A.I. Lecture @ NUS</h5>
-						<p>
-							This page will be authored by Trung Hai LE. The subject matter may vary based on the content
-							writer's discretion.
-						</p>
+						<div>
+							<h5>A.I. Lecture @ NUS</h5>
+							<p>
+								This page will be authored by Trung Hai LE. The subject matter may vary based on the
+								content
+								writer's discretion.
+							</p>
+						</div>
 					</div>
 				</a>
 
@@ -313,11 +357,14 @@ title: The Schedule
 			<div class="">
 				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
 					<div class="card hoverable">
-						<h5> Lunch at Formosa Delights </h5>
-						<p>
-							This page will be authored by {Haven't assing the writer}. The subject matter may vary based on the content
-							writer's discretion.
-						</p>
+						<div>
+							<h5> Lunch at Formosa Delights </h5>
+							<p>
+								This page will be authored by Trung Hai LE. The subject matter may vary
+								based on the content
+								writer's discretion.
+							</p>
+						</div>
 					</div>
 				</a>
 
@@ -328,11 +375,14 @@ title: The Schedule
 			<div class="">
 				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
 					<div class="card hoverable">
-						<h5> Vision A.I. Lab @ NUS </h5>
-						<p>
-							This page will be authored by Lav ASRANI. The subject matter may vary based on the content
-							writer's discretion.
-						</p>
+						<div>
+							<h5> Vision A.I. Lab @ NUS </h5>
+							<p>
+								This page will be authored by Lav ASRANI. The subject matter may vary based on the
+								content
+								writer's discretion.
+							</p>
+						</div>
 					</div>
 				</a>
 
@@ -343,11 +393,14 @@ title: The Schedule
 			<div class="scrolling-wrapper">
 				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
 					<div class="card hoverable">
-						<h5>Satay Street, Lau Pa Sat</h5>
-						<p>
-							This page will be authored by {Haven't assing the writer}. The subject matter may vary based on the content
-							writer's discretion.
-						</p>
+						<div>
+							<h5>Satay Street, Lau Pa Sat</h5>
+							<p>
+								This page will be authored by HENDRA Latisha Besariani. The subject matter may vary
+								based on the content
+								writer's discretion.
+							</p>
+						</div>
 						<div class="participants">
 							{% include schedule_user.html user="LBH" %}
 							{% include schedule_user.html user="MH" %}
@@ -357,18 +410,22 @@ title: The Schedule
 
 					</div>
 				</a>
-				<div class="card">
-					<h5>Where did other people go?</h5>
-					<p>
-						Please let me know ASAP!
-					</p>
-				</div>
-				<div class="card">
-					<h5>Where did other people go?</h5>
-					<p>
-						Please let me know ASAP!
-					</p>
-				</div>
+				<a href="{{ site.baseurl }}/a/2023/06/06/Ah-Seng-Durian.html">
+					<div class="card hoverable">
+						<div>
+							<h5>Ah Seng Durian’s Alexandra Outlet</h5>
+							<p>
+								Join us on our flavor-filled day at Ah Seng Durian's Alexandra Outlet. Discover an affordable haven for durian lovers, featuring diverse tastes and fresh, juicy mangosteens.
+							</p>
+						</div>
+						<div class="participants">
+							{% include schedule_user.html user="HWL" %}
+							{% include schedule_user.html user="JX" %}
+							{% include schedule_user.html user="CWY" %}
+						</div>
+
+					</div>
+				</a>
 			</div>
 		</li>
 	</ul>
@@ -380,11 +437,14 @@ title: The Schedule
 			<div class="">
 				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
 					<div class="card hoverable">
-						<h5>Carousell Singapore Office Visit</h5>
-						<p>
-							This page will be authored by {Haven't assing the writer}. The subject matter may vary based on the content
-							writer's discretion.
-						</p>
+						<div>
+							<h5>Carousell Singapore Office Visit</h5>
+							<p>
+								This page will be authored by {Haven't assing the writer}. The subject matter may vary
+								based on the content
+								writer's discretion.
+							</p>
+						</div>
 					</div>
 				</a>
 
@@ -395,11 +455,14 @@ title: The Schedule
 			<div class="">
 				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
 					<div class="card hoverable">
-						<h5> Lunch at Chin Chin Eating House</h5>
-						<p>
-							This page will be authored by {Haven't assing the writer}. The subject matter may vary based on the content
-							writer's discretion.
-						</p>
+						<div>
+							<h5> Lunch at Chin Chin Eating House</h5>
+							<p>
+								This page will be authored by {Haven't assing the writer}. The subject matter may vary
+								based on the content
+								writer's discretion.
+							</p>
+						</div>
 					</div>
 				</a>
 
@@ -410,11 +473,14 @@ title: The Schedule
 			<div class="">
 				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
 					<div class="card hoverable">
-						<h5> Professional Path Way @ SMU </h5>
-						<p>
-							This page will be authored by Maitree HIRUNTEEYAKUL. The subject matter may vary based on the content
-							writer's discretion.
-						</p>
+						<div>
+							<h5> Professional Path Way @ SMU </h5>
+							<p>
+								This page will be authored by Maitree HIRUNTEEYAKUL. The subject matter may vary based
+								on the content
+								writer's discretion.
+							</p>
+						</div>
 					</div>
 				</a>
 
@@ -425,11 +491,14 @@ title: The Schedule
 			<div class="">
 				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
 					<div class="card hoverable">
-						<h5> SMU Research Projects </h5>
-						<p>
-							This page will be authored by {Haven't assing the writer}. The subject matter may vary based on the content
-							writer's discretion.
-						</p>
+						<div>
+							<h5> SMU Research Projects </h5>
+							<p>
+								This page will be authored by {Haven't assing the writer}. The subject matter may vary
+								based on the content
+								writer's discretion.
+							</p>
+						</div>
 					</div>
 				</a>
 
@@ -440,41 +509,52 @@ title: The Schedule
 			<div class="scrolling-wrapper">
 				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
 					<div class="card hoverable">
-						<h5>National Museum of Singapore</h5>
-						<p>
-							This page will be authored by Kusuma JAIPIAM. The subject matter may vary based on the content
-							writer's discretion.
-						</p>
+						<div>
+							<h5>National Museum of Singapore</h5>
+							<p>
+								This page will be authored by Kusuma JAIPIAM. The subject matter may vary based on the
+								content
+								writer's discretion.
+							</p>
+						</div>
 						<div class="participants">
 							{% include schedule_user.html user="KJ" %}
 						</div>
 
 					</div>
 				</a>
-				<div class="card">
-					<h5>Where did other people go?</h5>
-					<p>
-						Please let me know ASAP!
-					</p>
-				</div>
-				<div class="card">
-					<h5>Where did other people go?</h5>
-					<p>
-						Please let me know ASAP!
-					</p>
-				</div>
+				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
+					<div class="card hoverable">
+						<div>
+							<h5>A Cafe</h5>
+							<p>
+								This page will be authored by Trung Hai LE. The subject matter may vary based
+								on the content
+								writer's discretion.
+							</p>
+						</div>
+						<div class="participants">
+							{% include schedule_user.html user="KJ" %}
+							{% include schedule_user.html user="THL" %}
+						</div>
+
+					</div>
+				</a>
 			</div>
 		</li>
 		<li>
-			<span>8:00 PM</span>
+			<span>7:00 PM</span>
 			<div class="scrolling-wrapper">
 				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
 					<div class="card hoverable">
-						<h5>Song Fa Bak Kut Teh</h5>
-						<p>
-							This page will be authored by {Haven't assing the writer}. The subject matter may vary based on the content
-							writer's discretion.
-						</p>
+						<div>
+							<h5>Song Fa Bak Kut Teh</h5>
+							<p>
+								This page will be authored by Maitree HIRUNTEEYAKUL. The subject matter may vary based
+								on the content
+								writer's discretion.
+							</p>
+						</div>
 						<div class="participants">
 							{% include schedule_user.html user="MH" %}
 							{% include schedule_user.html user="KJ" %}
@@ -483,165 +563,290 @@ title: The Schedule
 
 					</div>
 				</a>
-				<div class="card">
-					<h5>Where did other people go?</h5>
-					<p>
-						Please let me know ASAP!
-					</p>
-				</div>
-				<div class="card">
-					<h5>Where did other people go?</h5>
-					<p>
-						Please let me know ASAP!
-					</p>
-				</div>
+				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
+					<div class="card hoverable">
+						<div>
+							<h5>Little India</h5>
+							<p>
+								This page will be authored by Mahir LABIB. The subject matter may vary based on the
+								content
+								writer's discretion.
+							</p>
+						</div>
+						<div class="participants">
+							{% include schedule_user.html user="QTA" %}
+							{% include schedule_user.html user="HB" %}
+							{% include schedule_user.html user="LBH" %}
+							{% include schedule_user.html user="ML" %}
+							{% include schedule_user.html user="HWL" %}
+						</div>
+
+					</div>
+				</a>
+				
 			</div>
 		</li>
 	</ul>
 
-	<h3 class="mb-2 date">MOCK June 2023</h3>
+	<h3 class="mb-2 date">Thursday, 8th June 2023</h3>
 	<ul>
 		<li>
-			<span>Morning</span>
-			<div class="scrolling-wrapper">
-				<div class="card">
-					<h5>CX691: HKG to SIN</h5>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						the industry's standard dummy text ever since the 1500s.
-					</p>
-					<div class="participants">
-						<div class=" portraitPhoto">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04200B3.jpg"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04200C.png"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-						</div>
-						<div class="portraitPhoto">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04134B1.jpg"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04134C.png"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-						</div>
-						<div class="portraitPhoto">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04172B2.jpg"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04172C.png"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-						</div>
-						<div class=" portraitPhoto">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04200B3.jpg"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04200C.png"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-						</div>
-						<div class="portraitPhoto">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04134B1.jpg"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04134C.png"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-						</div>
-						<div class="portraitPhoto">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04172B2.jpg"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04172C.png"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-						</div>
-						<div class=" portraitPhoto">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04200B3.jpg"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04200C.png"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-						</div>
-						<div class="portraitPhoto">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04134B1.jpg"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04134C.png"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-						</div>
-						<div class="portraitPhoto">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04172B2.jpg"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04172C.png"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-						</div>
-						<div class=" portraitPhoto">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04200B3.jpg"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04200C.png"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-						</div>
-						<div class="portraitPhoto">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04134B1.jpg"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04134C.png"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-						</div>
-						<div class="portraitPhoto">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04172B2.jpg"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-							<img loading="lazy" src="/SGVisit/assets/img/portraitPhotos/MAT04172C.png"
-								class="img-fluid rounded-circle block lg:hidden" alt="">
-						</div>
-
-
-					</div>
-
-				</div>
-				<div class="card">
-					<h5>What Is Lorem Ipsum?</h5>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-						been
-						the industry's standard dummy text ever since the 1500s.
-					</p>
-				</div>
-				<div class="card">
-					<h5>What Is Lorem Ipsum?</h5>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-						been
-						the industry's standard dummy text ever since the 1500s.
-					</p>
-				</div>
-			</div>
-		</li>
-		<li>
-			<span>3:00 PM</span>
+			<span>9:00 AM - 10:00 AM</span>
 			<div class="">
 				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
 					<div class="card hoverable">
-						<h5> Day One </h5>
-						<p>
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-							been the industry's standard dummy text ever since the 1500s.
-						</p>
+						<div>
+							<h5>Breakfast @ Ya Kun Kaya Toast</h5>
+							<p>
+								This page will be authored by LI Hendry Wijaya. The subject matter may vary based on the
+								content
+								writer's discretion.
+							</p>
+						</div>
+						<div class="participants">
+							{% include schedule_user.html user="QTA" %}
+							{% include schedule_user.html user="HB" %}
+							{% include schedule_user.html user="LBH" %}
+							{% include schedule_user.html user="MH" %}
+							{% include schedule_user.html user="KJ" %}
+							{% include schedule_user.html user="THL" %}
+							{% include schedule_user.html user="HWL" %}
+							{% include schedule_user.html user="JX" %}
+							{% include schedule_user.html user="CWY" %}
+						</div>
 					</div>
 				</a>
 
 			</div>
 		</li>
 		<li>
-			<span>7:00 PM</span>
+			<span>10:45 AM - 1:00 PM</span>
+			<div class="">
+				<a href="{{ site.baseurl }}/a/2023/06/02/aquarium.html">
+					<div class="card hoverable">
+						<div>
+							<h5>S.E.A. Aquarium Visit</h5>
+							<p>
+								Spent a fantastic day at Sentosa Island, Singapore, visiting the S.E.A. Aquarium.
+								Marvelled at over 100,000 marine creatures, learned about environmental impact, and
+								created unforgettable memories. Highly recommend a visit!
+							</p>
+						</div>
+						<div class="participants">
+							{% include schedule_user.html user="QTA" %}
+							{% include schedule_user.html user="LA" %}
+							{% include schedule_user.html user="HB" %}
+							{% include schedule_user.html user="LBH" %}
+							{% include schedule_user.html user="MH" %}
+							{% include schedule_user.html user="KJ" %}
+							{% include schedule_user.html user="ML" %}
+							{% include schedule_user.html user="THL" %}
+							{% include schedule_user.html user="HWL" %}
+							{% include schedule_user.html user="NT" %}
+							{% include schedule_user.html user="JX" %}
+							{% include schedule_user.html user="CWY" %}
+						</div>
+					</div>
+				</a>
+
+
+			</div>
+		</li>
+		<li>
+			<span>2:00 PM - 4:00 PM</span>
+			<div class="scrolling-wrapper">
+				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
+					<div class="card hoverable">
+						<div>
+							<h5> Universal Studios Singapore </h5>
+							<p>
+								This page will be authored by Nurdaulet TAUMERGENOV. The subject matter may vary
+								based on the content
+								writer's discretion.
+							</p>
+						</div>
+						<div class="participants">
+							{% include schedule_user.html user="HB" %}
+							{% include schedule_user.html user="LBH" %}
+							{% include schedule_user.html user="ML" %}
+							{% include schedule_user.html user="HWL" %}
+							{% include schedule_user.html user="NT" %}
+							{% include schedule_user.html user="JX" %}
+							{% include schedule_user.html user="CWY" %}
+						</div>
+					</div>
+				</a>
+				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
+					<div class="card hoverable">
+						<div>
+							<h5> Sentosa Line Cable Car </h5>
+							<p>
+								This page will be authored by Kusuma JAIPIAM. The subject matter may vary based on the
+								content
+								writer's discretion.
+							</p>
+						</div>
+						<div class="participants">
+							{% include schedule_user.html user="LBH" %}
+							{% include schedule_user.html user="MH" %}
+							{% include schedule_user.html user="KJ" %}
+							{% include schedule_user.html user="THL" %}
+						</div>
+					</div>
+				</a>
+
+			</div>
+		</li>
+		<li>
+			<span>Evening</span>
+			<div class="scrolling-wrapper">
+				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
+					<div class="card hoverable">
+						<div>
+							<h5>Spectra & Garden Rhapsody, Singapore's show </h5>
+							<p>
+								This page will be authored by Maitree HIRUNTEEYAKUL. The subject matter may vary
+								based on the content
+								writer's discretion.
+							</p>
+						</div>
+						<div class="participants">
+							{% include schedule_user.html user="QTA" %}
+							{% include schedule_user.html user="LBH" %}
+							{% include schedule_user.html user="MH" %}
+						</div>
+
+					</div>
+				</a>
+				<a href="{{ site.baseurl }}/a/2023/06/08/Dining-Delight-at-Nando.html">
+					<div class="card hoverable">
+						<div>
+							<h5>Dining Delight at Nando's </h5>
+							<p>
+								Experience the rich flavors of Portugal at Nando's in Singapore. From perfectly grilled peri-peri chicken to crispy fries, enjoy a warm, friendly, and unforgettable dining journey.
+							</p>
+						</div>
+						<div class="participants">
+							{% include schedule_user.html user="QTA" %}
+							{% include schedule_user.html user="LBH" %}
+							{% include schedule_user.html user="MH" %}
+						</div>
+
+					</div>
+				</a>
+				
+			</div>
+		</li>
+	</ul>
+
+	<h3 class="mb-2 date">Friday, 9th June 2023</h3>
+	<ul>
+		<li>
+			<span>10:00 AM</span>
+			<div class="">
+				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
+					<div class="card hoverable">
+						<div>
+							<h5> Friday Brunch BBQ </h5>
+							<p>
+								This page will be authored by Trung Hai LE. The subject matter may vary
+								based on the content
+								writer's discretion.
+							</p>
+						</div>
+					</div>
+				</a>
+
+			</div>
+		</li>
+		<li>
+			<span>1:00 PM</span>
+			<div class="">
+				<a href="{{ site.baseurl }}/a/2023/06/02/day-one.html">
+					<div class="card hoverable">
+						<div>
+							<h5> Jewel Changi Airport </h5>
+							<p>
+								This page will be authored by Maitree HIRUNTEEYAKUL. The subject matter may vary
+								based on the content
+								writer's discretion.
+							</p>
+						</div>
+					</div>
+				</a>
+
+			</div>
+		</li>
+		<li>
+			<span>6:00 PM</span>
 			<div class="scrolling-wrapper">
 				<div class="card">
-					<h5>What Is Lorem Ipsum?</h5>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						the industry's standard dummy text ever since the 1500s.
-					</p>
+					<div>
+						<h5>CX716: SIN to HKG</h5>
+						<p>
+
+							The evening flight departed from Singapore Changi to Hong Kong International Airport.
+						</p>
+					</div>
+					<div class="participants">
+						{% include schedule_user.html user="WHL" %}
+						{% include schedule_user.html user="KCL" %}
+						{% include schedule_user.html user="QTA" %}
+						{% include schedule_user.html user="HB" %}
+						{% include schedule_user.html user="LBH" %}
+						{% include schedule_user.html user="KJ" %}
+						{% include schedule_user.html user="ML" %}
+						{% include schedule_user.html user="HWL" %}
+						{% include schedule_user.html user="NT" %}
+						{% include schedule_user.html user="JX" %}
+						{% include schedule_user.html user="CWY" %}
+					</div>
+
 				</div>
 				<div class="card">
-					<h5>What Is Lorem Ipsum?</h5>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						the industry's standard dummy text ever since the 1500s.
-					</p>
+					<div>
+						<h5>SQ898: SIN to HKG</h5>
+						<p>
+
+							The evening flight from Singapore Changi to Hong Kong International Airport.
+						</p>
+					</div>
+					<div class="participants">
+						{% include schedule_user.html user="LA" %}
+					</div>
+
+				</div>
+				<div class="card">
+					<div>
+						<h5>FD350: SIN to DMK</h5>
+						<p>
+
+							The evening flight departed from Singapore Changi to Don Mueang International Airport.
+						</p>
+					</div>
+					<div class="participants">
+						{% include schedule_user.html user="MH" %}
+					</div>
+
+				</div>
+				<div class="card">
+					<div>
+						<h5>SQ186: SIN to SGN</h5>
+						<p>
+
+							The evening flight departed from Singapore Changi to Tân Sơn Nhất International Airport.
+						</p>
+					</div>
+					<div class="participants">
+						{% include schedule_user.html user="THL" %}
+					</div>
+
 				</div>
 			</div>
 		</li>
-
 	</ul>
+
+
 </div>
 
 </body>
