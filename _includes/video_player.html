@@ -1,0 +1,8 @@
+<video controls>
+{% if include.src contains 'https://' %}
+<source src="{{ include.src }}" type="video/{{ include.type }}">
+{% else %}
+  <source src="{{ site.baseurl }}{{ include.src }}" type="video/{{ include.type }}">
+{% endif %}
+Your browser does not support the video tag.
+</video>
