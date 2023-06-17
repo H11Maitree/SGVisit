@@ -18,7 +18,6 @@ Jekyll, a Ruby framework, is utilized to generate **static websites**. Throughou
     $ bundle exec jekyll serve
 
 ## Add Pages
-
 You can add pages into the site by creating a new MarkDown or HTML file in the folder **_posts** each file represent each post see [example post](./_posts/2023-06-05-day-one.markdown)
 
 **Naming the file**
@@ -36,10 +35,23 @@ Each page should have a header
     layout: post
     title: "AI Class at NUS"
     date: 2023-06-02 10:42:55 +0800
-    categories: Aducation
+    categories: students-exploration
     ---
     {Follow by HTML or MarkDown code}
- **Useful Link**
+
+**Post Categories**
+We've recently updated the Home page to showcase each category separately. As such, it's vital that **every post has a valid category assigned; without one, the post will not be visible on the Home page**.
+
+Here are the accepted categories:
+
+- **academic-visit**: This category is designated for posts related to academic visits. This includes Lab visits, Lectures, and Office visits.
+- **group-meal**: Use this for posts about official group meals hosted by professors.
+- **students-exploration**: This category is intended for posts related to student self-exploration.
+- **a**: If you haven't decided on a category yet, use this placeholder.
+
+Please ensure to select an appropriate category when posting.
+
+**Useful Link**
  - [Include features, import a component html into markdown/another html](https://jekyllrb.com/docs/includes/)
  - [MarkDown Editor](https://stackedit.io/app#)
 
