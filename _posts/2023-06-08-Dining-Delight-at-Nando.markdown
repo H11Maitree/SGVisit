@@ -2,7 +2,7 @@
 layout: post
 title:  "Dining Delight at Nando"
 date:   2023-06-08 21:00:00 +0800
-categories: a
+categories: students-exploration
 ---
 
 ![]({{ site.baseurl }}/assets/img/contents/foods/Nandos1.jpeg)

@@ -13,12 +13,26 @@ layout: default
 
 <div class="home col-md-9" style="margin-bottom: 2rem;">
 <div class="cityu-divider-2" style="margin-bottom: .5rem;"></div>
-  {% assign categories = "Academic Visit,Group Meal,Students' Exploration,a" | split: "," %}
+  {% assign categories = "academic-visit,group-meal,students-exploration,a" | split: "," %}
+  
+
+
   {% for category in categories %}
+  
+
+  {%- if category == "students-exploration" -%}
+    {% assign category_name = "Students' Explorations" %} 
+  {%- elsif category == "group-meal" -%}
+    {% assign category_name = "Group Meals" %}
+  {%- elsif category == "academic-visit" -%}
+    {% assign category_name = "Academic Visits" %}
+  {%- else -%}
+    {% assign category_name = category %}
+  {%- endif -%}
   
   {% assign posts = site.categories[category] | reverse %}
   <div class="cityu-content content-color-default" style="margin-bottom: 0px;">
-  <h1 class="post-list-heading" style="margin-bottom: 0.5rem;">{{ category }}(s)</h1>
+  <h1 class="post-list-heading" style="margin-bottom: 0.5rem;">{{ category_name }}</h1>
   </div>
 
   {%- if posts.size > 0 -%}

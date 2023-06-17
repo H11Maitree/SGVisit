@@ -2,7 +2,7 @@
 layout: post
 title:  "Ah Seng Durian's Alexandra Outlet"
 date:   2023-06-06 20:00:00 +0800
-categories: a
+categories: students-exploration
 ---
 
 ![]({{ site.baseurl }}/assets/img/contents/durians/ASDurian1.jpg)

@@ -2,7 +2,7 @@
 layout: post
 title:  "Ninety-Nine Old Trees (99老樹)"
 date:   2023-06-05 20:30:00 +0800
-categories: a
+categories: students-exploration
 ---
 
 ![]({{ site.baseurl }}/assets/img/contents/durians/99durian.jpg)
