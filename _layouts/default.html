@@ -32,6 +32,11 @@ Singapore Visit 2023 (CS) | City University of Hong Kong
     {% include breadcrumb.html %}
     {% endif %}
 
+    <!-- Slide -->
+    {% if page.title == "Home" %}
+    {% include index_slide.html %}
+    {% endif %}
+
     <!-- Main -->
     <main class="cityu-main" style="min-height: 605px;">
         <div class="cityu-main-inner container">

@@ -6,7 +6,7 @@ layout: home
 title: Home
 ---
 {% include panorama_import.html %}
-### Welcome to Singapore Visit 2023's Homepage
+
 
 This is the first 360 pic example:
 {% include panorama_image.html id="bbbbb" src="/assets/img/360Pictures/SMU3.jpg" x=2.5 y=1 z=0 %}
