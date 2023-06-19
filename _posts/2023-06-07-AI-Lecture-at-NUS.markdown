@@ -11,7 +11,7 @@ On our first morning in Singapore, we took the MRT to Kent Ridge station, where 
 ![]({{ site.baseurl }}/assets/img/contents/lecture-nus/DSC02209.JPG)
 
 ## Lecture on Logical Agents
-Leading the lecture is Dr. Daren Ler, a professor from Department of Computer Science at NUS. In the span of over an hour, he gave us an overview of logical agents, an important tool to represent knowledge and deduce information about the environment. Through straightforward examples, he introduced the foundational components of logical agents and elucidated their rigorous formulation in a superbly clear manner. Dr. Daren also condensed the material into digestible summaries, helping us retained it better.
+Leading the lecture is [Dr. Daren Ler](https://www.comp.nus.edu.sg/cs/people/dler/), a professor from Department of Computer Science at NUS. In the span of over an hour, he gave us an overview of logical agents, an important tool to represent knowledge and deduce information about the environment. Through straightforward examples, he introduced the foundational components of logical agents and elucidated their rigorous formulation in a superbly clear manner. Dr. Daren also condensed the material into digestible summaries, helping us retained it better.
 
 ![]({{ site.baseurl }}/assets/img/contents/lecture-nus/IMG_8076.JPG)
 
