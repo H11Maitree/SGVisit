@@ -15,4 +15,4 @@ To complement our durian feast, we also savoured some juicy mangosteens. We were
 
 {% include video_player.html src="/assets/img/contents/durians/ASDurian.mp4" type="mp4" %}
 
-<br>
+
