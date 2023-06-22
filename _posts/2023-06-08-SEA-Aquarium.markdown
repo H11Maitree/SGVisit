@@ -13,7 +13,7 @@ Given a full day to explore the country on our own, many of us decided to head t
 ## The S.E.A. Aquarium
 As one of the largest aquariums globally, the S.E.A. Aquarium houses over 100,000 marine animals. From the moment we stepped inside, immediately we were captivated. We couldn't help appreciate the astonishing beauty and delicate details of the underwater world.
 
-![]({{ site.baseurl }}/assets/img/contents/aquarium/8jun4.JPG)
+![]({{ site.baseurl }}/assets/img/contents/aquarium/8jun4.jpg)
 ## Raising Environmental Awareness
 Beyond the entertainment and excitement, our visit to the S.E.A. Aquarium also provided us with a valuable lesson about the impact of ocean pollution. We learned about what we can do as global citizens and the importance of preserving the resources, shared among uncountable species. The knowledgeable volunteers there shared insightful information, making our experience meaningful and thought-provoking.
 
@@ -21,4 +21,4 @@ Beyond the entertainment and excitement, our visit to the S.E.A. Aquarium also p
 ## A Memory to Cherish
 Lastly, this visit to the S.E.A. Aquarium with our amazing fellows is unforgettable. We had a blast, learned more about marine animals, and captured plenty of cool pictures with the adorable fish. If you ever find yourself in Singapore, I highly recommend adding the S.E.A. Aquarium to your must-visit list. It's a place that offers both enjoyment and an opportunity to gain a deeper appreciation for the wonders of the ocean.
 
-![]({{ site.baseurl }}/assets/img/contents/aquarium/8jun3.JPG)
+![]({{ site.baseurl }}/assets/img/contents/aquarium/8jun3.jpg)
