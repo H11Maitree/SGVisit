@@ -23,7 +23,7 @@ To culminate our adventure, we witnessed an impressive light show against the ba
 ## Mascot of Singapore
 Among all these remarkable experiences, the Merlion stood as the quintessential symbol of Singapore's heritage and spirit. Its lion head exuded strength and courage, while the fish body represented the city's humble beginnings as a fishing village. The Merlion was a reminder of the nation's progress and its ability to adapt and thrive in a constantly evolving world.
 
-![]({{ site.baseurl }}/assets/img/contents/merlion/MAT00098.jpg)
+![]({{ site.baseurl }}/assets/img/contents/merlion/GZKZ6607.jpg)
 ## Marvels of Singapore
 In conclusion, my visit to the Merlion and its surrounding attractions was an unforgettable experience. Every moment was filled with wonder and amazement, from the mesmerizing Rain Oculus to the iconic Marina Bay Sands Hotel and the breathtaking light show at the National Gallery Singapore. The Merlion stood a proud testament to Singapore's rich culture, resilience, and unwavering spirit. It truly encapsulated the essence of this vibrant city-state, leaving a lasting impression on me and all who have the privilege of witnessing its magnificence.
 

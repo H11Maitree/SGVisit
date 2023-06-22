@@ -8,8 +8,6 @@ title: Home
 {% include panorama_import.html %}
 
 
-This is the first 360 pic example:
-{% include panorama_image.html id="bbbbb" src="/assets/img/360Pictures/SMU3.jpg" x=2.5 y=1 z=0 %}
 This is the secound 360 pic example:
 {% include panorama_image.html id="aaaaa" src="/assets/img/360Pictures/airport.jpg" %}
 This is the third 360 pic example:
