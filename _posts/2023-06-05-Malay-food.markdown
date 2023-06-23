@@ -5,8 +5,9 @@ date:   2023-06-05 20:00:00 +0800
 categories: students-exploration
 ---
 
-![]({{ site.baseurl }}/assets/img/contents/Malay_Food/IMG_7135.JPG)
 # Nasi Padang
+
+![]({{ site.baseurl }}/assets/img/contents/Malay_Food/IMG_7135.JPG)
 Nasi Padang is a popular Malay/Indonesian cuisine that has found its way to the vibrant food scene in Singapore. This traditional dish consists of steamed rice served with an array of flavorful side dishes, creating a feast for the senses. Nasi Padang in Singapore typically offers a wide variety of dishes, ranging from curries and stir-fried vegetables to grilled meats and spicy sambal. The combination of flavors, textures, and aromas makes Nasi Padang a truly satisfying and diverse culinary experience.
 
 One of the highlights of Nasi Padang is the rich and aromatic curries that accompany the rice. From creamy and mild to fiery and spicy, the curries are made with a blend of herbs and spices, creating a tantalizing taste sensation. Beef Rendang, a slow-cooked meat dish in a fragrant coconut curry, is often a favorite among diners. Other popular curries include chicken curry, fish curry, and vegetable curry, each boasting its own distinct flavors and ingredients.
