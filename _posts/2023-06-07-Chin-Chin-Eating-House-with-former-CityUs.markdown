@@ -33,10 +33,10 @@ Notably, Dr. Wah was the lead professor of a 2009 CityU student trip to Singapor
 
 ![]({{ site.baseurl }}/assets/img/contents/chinchin/IMG_8753.jpg)
 ### [Dr. YANG Guomin](https://faculty.smu.edu.sg/profile/yang-guomin-6571)
-Dr. Guomin traced his academic journey from City University of Hong Kong to SMU, sharing personal anecdotes and images along the way. 
+Dr. Guomin embarked on his academic journey at the City University of Hong Kong for his Bachelor's studies, later earning his Ph.D. from the same institution. Upon completing his doctorate, he served as a researcher at the prestigious National University of Singapore (NUS). His pursuit of academia then led him to Australia, where he held a Lecturer position at the University of Wollongong. Eventually, his journey brought him back to Singapore, where he currently teaches at SMU.
 
 ![]({{ site.baseurl }}/assets/img/contents/chinchin/IMG_8755.jpg)
-A standout memory featured a group photo with the first Chief Executive of Hong Kong, Tung Chee-hwa, during a hike in the New Territories. Dr. Guomin's motto for us CityU tech students: "Work Hard, Have Fun, and Be Nice."
+During our meeting, Dr. Guomin shared personal anecdotes and images from his storied journey. A standout memory featured a group photo with the first Chief Executive of Hong Kong, Tung Chee-hwa, during a hike in the New Territories. Dr. Guomin left us, CityU tech students, with the inspiring motto: "Work Hard, Have Fun, and Be Nice."
 
 ![]({{ site.baseurl }}/assets/img/contents/chinchin/MAT00262.jpg)
 ### [Dr. HE Shengfeng](https://faculty.smu.edu.sg/profile/he-shengfeng-7261)
