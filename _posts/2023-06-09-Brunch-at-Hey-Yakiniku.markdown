@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “Brunch at Hey Yakiniku“
+title: "Brunch at Hey Yakiniku"
 date: 2023-06-09 10:30:00 +0800
 categories: group-meal
 ---
