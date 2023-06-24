@@ -4,7 +4,8 @@ title: "Lunch at Formosa Delights"
 date: 2023-06-06 11:30:00 +0800
 categories: group-meal
 ---
-
+{% include panorama_import.html %}
+{% include panorama_image.html id="aaaaa" src="/assets/img/360Pictures/formosa_delights.jpg" %}
 After attending the lecture on artificial intelligence in NUS campus in the morning, we moved to [Formosa Delights](http://www.formosadelights.com/), a Taiwanese restaurant located near the auditorium, for lunch.
 
 As we stepped inside the restaurant, we were greeted by an inviting ambience that blended modern aesthetics with traditional Taiwanese touches. Soft hues of red and gold adorned the walls, while intricate lanterns cast a warm glow, setting the stage for an immersive dining experience. The restaurant's attentive staff, donning traditional attire, made us feel right at home, offering friendly smiles and helpful suggestions as we perused the menu.

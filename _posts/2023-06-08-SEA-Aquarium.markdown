@@ -4,7 +4,7 @@ title:  "S.E.A. Aquarium Visit"
 date:   2023-06-08 13:00:00 +0800
 categories: students-exploration
 ---
-
+{% include panorama_import.html %}
 ![]({{ site.baseurl }}/assets/img/contents/aquarium/8jun5.jpeg)
 ## A Full Day to Spend on Sentosa Island
 Given a full day to explore the country on our own, many of us decided to head to Sentosa Island. With numerous attractions to choose from, we agreed that visiting the S.E.A. Aquarium was a must. Some of us had never been to such a place before, and the bright and sunny weather made it an ideal choice to kickstart the trip.
@@ -22,3 +22,5 @@ Beyond the entertainment and excitement, our visit to the S.E.A. Aquarium also p
 Lastly, this visit to the S.E.A. Aquarium with our amazing fellows is unforgettable. We had a blast, learned more about marine animals, and captured plenty of cool pictures with the adorable fish. If you ever find yourself in Singapore, I highly recommend adding the S.E.A. Aquarium to your must-visit list. It's a place that offers both enjoyment and an opportunity to gain a deeper appreciation for the wonders of the ocean.
 
 ![]({{ site.baseurl }}/assets/img/contents/aquarium/8jun3.jpg)
+
+{% include panorama_image.html id="aaaaa" src="/assets/img/360Pictures/SEA.jpg" %}

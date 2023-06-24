@@ -4,7 +4,7 @@ title: "Host Favorites at Chin Chin Eating House with former CityUs"
 date: 2023-06-07 13:30:00 +0800
 categories: group-meal
 ---
-
+{% include panorama_import.html %}
 ![]({{ site.baseurl }}/assets/img/contents/chinchin/MAT00247.jpg)
 ## Host Favorites at Chin Chin Eating House with former CityUs
 We enjoyed an exceptional lunch at Chin Chin Eating House, recommended by our hosts: Dr. NGO Chong Wah, Dr. YANG Guomin, and Dr. HE Shengfeng. Currently professors at the Singapore School of Computing and Information Systems, Management University, they guided us to this local gem situated a brief 15-minute walk from the SMU campus.
@@ -43,3 +43,5 @@ During our meeting, Dr. Guomin shared personal anecdotes and images from his sto
 A Ph.D. graduate from CityU in 2015, Dr. Shengfeng, a former Teaching Assistant, is now an Associate Professor at SMU and leads the Visual Understanding and Generation (VUG) Laboratory. He provided insightful information about his ongoing research and time at CityU.
 
 ![]({{ site.baseurl }}/assets/img/contents/chinchin/MAT00273.jpg)
+
+{% include panorama_image.html id="aaaaa" src="/assets/img/360Pictures/SMU2.jpg" x=-0.4 y=-0.1 z=-0.8  %}

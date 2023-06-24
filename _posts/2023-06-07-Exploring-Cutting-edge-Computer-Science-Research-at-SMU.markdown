@@ -5,7 +5,7 @@ date: 2023-06-07 15:00:00 +0800
 categories: academic-visit
 ---
 {% include panorama_import.html %}
-{% include panorama_image.html id="aaaaa" src="/assets/img/360Pictures/SMU2.jpg" %}
+{% include panorama_image.html id="aaaaa" src="/assets/img/360Pictures/SMU1.jpg" x=1 y=0 z=0  %}
 ## Today's Showcase
 Singapore Management University, known for its rigorous academic standards and forward-thinking research initiatives, held an engaging showcase recently. This event featured an array of innovative projects from their Master's degree students specializing in vision Artificial Intelligence (AI) and Extended Reality (XR). Today, we will take a closer look at the remarkable advancements these research projects have made.
 
