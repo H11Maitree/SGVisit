@@ -13,6 +13,9 @@ Walking around in the scorching afternoon, I decided to find a café to rest bef
 
 It was a pleasant space, with comfortable sofas and a wide range of boardgames for you to select from. The cappuccino was palatable. I played two games of Jenga before going to a bak kut teh restaurant for dinner.
 
-![]({{ site.baseurl }}/assets/img/contents/void-cafe/jenga.mp4)
+<video controls width="300">
+    <source src="{{ site.baseurl }}/assets/img/contents/void-cafe/jenga.mp4" type="video/mp4">
+    Failed to load video.
+</video>
 
 Unfortunately, when I left, I forgot a small paper bag back there, and when I realized, it was too late and the café already closed. Luckily, I was able to contact the café on Messenger, and they quickly confirmed my bag was still there. The next day, I returned to the café, knowing fully well that this café shall occupy a special place in my memory of this trip.
