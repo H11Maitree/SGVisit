@@ -2,7 +2,7 @@
 layout: post
 title: "Chilling at Void Cafe"
 date: 2023-06-07 18:00:00 +0800
-categories: student-exploration
+categories: students-exploration
 ---
 
 Walking around in the scorching afternoon, I decided to find a café to rest before dinner. After searching around, I found a place right next to School of the Arts on Zubir Said Dr called [Void Cafe](https://voidcafe.com).
