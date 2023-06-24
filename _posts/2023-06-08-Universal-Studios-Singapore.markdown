@@ -25,3 +25,5 @@ The Revenge of The Mummy, with its massive Egyptian-styled statue, was an attrac
 ![]({{ site.baseurl }}/assets/img/contents/universal-studio/IMG_9445.jpeg)
 ## A Splash of Adventure
 The final ride we selected was the Jurassic Park Rapids Adventure. In a 9-seater raft, we navigated wild waterways and encountered dinosaurs. This was no mild Disney ride – it was an extreme experience with an epic finale that sent our raft hurtling down a hill into a watery landing, soaking us all. At the end of the ride, we emerged as drenched as if we'd just taken a bath.
+
+{% include googlemap.html id="aaaaa" src="'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8625023250534!2d103.82046972602205!3d1.254172711873725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1955a615a343%3A0x3094037d34e6529f!2sUniversal%20Studios%20Singapore!5e0!3m2!1sen!2shk!4v1687623430036!5m2!1sen!2shk'"%}

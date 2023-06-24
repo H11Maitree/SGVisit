@@ -25,3 +25,5 @@ The sauce is a D.I.Y affair, with each table provided with a bottle of sweet thi
 ## The Fountain of Wealth
 After our meal, we ventured outside to admire the Fountain of Wealth up close. Viewed from above, the fountain's architectural design is strikingly symmetric and modern, belying its age. At 10 pm, the fountain ceases operation for the day, pausing to rest before its mesmerizing display recommences the following morning.
 ![]({{ site.baseurl }}/assets/img/contents/song-fa/MAT00696.JPG)
+
+{% include googlemap.html id="aaaaa" src="'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.79965909885!2d103.85632767602198!3d1.294747861748315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19af06a15531%3A0x39c412c1da57737d!2sFountain%20of%20Wealth!5e0!3m2!1sen!2sth!4v1687622871653!5m2!1sen!2sth'"%}

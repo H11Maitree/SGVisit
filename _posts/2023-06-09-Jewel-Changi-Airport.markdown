@@ -29,3 +29,5 @@ Every so often, the rapid inter-terminal transit railway whizzes through the air
 ![]({{ site.baseurl }}/assets/img/contents/jewel/IMG_0634.jpg)
 ## Say Bye to Singapore
 As our boarding time loomed, we bid farewell to The Jewel and headed back to catch our flight home. This marks the end of our Singapore Visit 2023.
+
+{% include googlemap.html id="aaaaa" src="'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.694045664021!2d103.98718487602183!3d1.3602147615402613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da17be147e79c3%3A0xb809d0f172526ac3!2sJewel%20Changi%20Airport!5e0!3m2!1sen!2shk!4v1687623523632!5m2!1sen!2shk'"%}

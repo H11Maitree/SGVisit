@@ -21,3 +21,5 @@ Throughout our visit, we also had the chance to inquire about research opportuni
 ![]({{ site.baseurl }}/assets/img/contents/NUS_Lab/IMG_8170.JPG)
 
 In conclusion, our visit to Prof. Wang Xinchao's AI lab at NUS, hosted by Prof. Soh Wee Seng, was an incredibly enriching experience. Engaging in discussions with these esteemed professors allowed us to gain valuable perspectives on AI and machine learning. Witnessing the dedication of the researchers and learning about the cutting-edge advancements being made in the field left a profound impact on all of us. We are grateful for the opportunity to have learned from such distinguished individuals and are inspired to continue exploring the exciting possibilities that AI and machine learning offer.
+
+{% include googlemap.html id="aaaaa" src="'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.175264530915!2d103.772346!3d1.298456!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1af82c4cbf1d%3A0x6eee32d6f7fdbf92!2sNUS%20Engineering%20E4!5e0!3m2!1sen!2sth!4v1687622390273!5m2!1sen!2sth'"%}

@@ -23,3 +23,7 @@ The plate of succulent lamb meat cooked with garlic to a perfect tenderness took
 Beyond the extraordinary food, what truly made our visit to Formosa Delights unforgettable was the warm and welcoming atmosphere that enveloped us throughout our meal.
 
 ![]({{ site.baseurl }}/assets/img/contents/formosa-delights/IMG_0236.JPG)
+
+
+{% include googlemap.html id="aaaaa" src="'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8024780477717!2d103.76611397602198!3d1.2929550617539054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1afc3dd2af07%3A0x1a2d2093faf46685!2sFormosa%20Delights!5e0!3m2!1sen!2sth!4v1687622584614!5m2!1sen!2sth'"%}
+

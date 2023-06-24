@@ -18,3 +18,5 @@ When my meal arrived, the chicken was perfectly cooked with a crispy exterior an
 
 ## Recommended
 Overall, my experience at Nando's was fantastic. The food was delicious, the atmosphere was welcoming, and the staff were attentive and friendly. I would definitely recommend Nando's to anyone looking for a tasty and unique dining experience in Singapore.
+
+{% include googlemap.html id="aaaaa" src="'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d594.9962884710675!2d103.85440360786556!3d1.29882529758433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19a535919dc5%3A0x5fdb4f661abc8e32!2sNando&#39;s%20Bugis%20Junction!5e0!3m2!1sen!2shk!4v1687623178186!5m2!1sen!2shk'"%}

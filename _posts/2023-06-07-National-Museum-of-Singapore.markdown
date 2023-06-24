@@ -18,3 +18,5 @@ The national museum of Singapore is the oldest museum providing information on h
 Overall, it was a great experience. If there is another chance to visit Singapore, I would love to revisit this place and explore more in-depth about the history and culture of Singapore.
 
 ![]({{ site.baseurl }}/assets/img/contents/national-museum/ms2.jpg)
+
+{% include googlemap.html id="aaaaa" src="'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7967138189865!2d103.84363818595665!3d1.29661835838529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19a311be5b0f%3A0x92e311597c4db868!2sNational%20Museum%20of%20Singapore!5e0!3m2!1sen!2sth!4v1687622829281!5m2!1sen!2sth'"%}

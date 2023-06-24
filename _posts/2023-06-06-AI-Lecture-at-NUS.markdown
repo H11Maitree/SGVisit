@@ -18,3 +18,6 @@ Leading the lecture is [Dr. Daren Ler](https://www.comp.nus.edu.sg/cs/people/dle
 After the lecture, we also talked to the  students taking the class and got to know more about the university life in NUS. We expressed our gratitude to Daren before parted way with him.
 
 ![]({{ site.baseurl }}/assets/img/contents/lecture-nus/DSC02287.JPG)
+
+{% include googlemap.html id="aaaaa" src="'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d297.4988292834782!2d103.77542117174379!3d1.292730872393239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a558be07db5%3A0x19fbcf7c5d63f179!2si3%20Auditorium!5e0!3m2!1sen!2sth!4v1687622529341!5m2!1sen!2sth'"%}
+

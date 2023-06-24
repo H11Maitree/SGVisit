@@ -25,3 +25,6 @@ The experience was not just about the food; it was also a way for me to feel con
 
 ## A Memorable Cultural Exchange
 In conclusion, my visit to Mustafa Market with my friends was a memorable experience that allowed me to share my culture with them. The trip was a culinary adventure that exposed my friends to the unique flavors and traditions of Bangladeshi cuisine. It was also an opportunity for me to reconnect with my roots and experience a taste of home away from home. Overall, it was an unforgettable experience that brought us closer together.
+
+{% include googlemap.html id="aaaaa" src="'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.3892196832435!2d103.85167838884207!3d1.308164381181527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19c634a9b4a3%3A0xed353a31994d92d7!2sMustafa%20Centre!5e0!3m2!1sen!2sth!4v1687622790600!5m2!1sen!2sth'"%}
+

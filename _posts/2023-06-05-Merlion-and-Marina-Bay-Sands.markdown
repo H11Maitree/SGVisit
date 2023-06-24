@@ -27,3 +27,4 @@ Among all these remarkable experiences, the Merlion stood as the quintessential 
 ## Marvels of Singapore
 In conclusion, my visit to the Merlion and its surrounding attractions was an unforgettable experience. Every moment was filled with wonder and amazement, from the mesmerizing Rain Oculus to the iconic Marina Bay Sands Hotel and the breathtaking light show at the National Gallery Singapore. The Merlion stood a proud testament to Singapore's rich culture, resilience, and unwavering spirit. It truly encapsulated the essence of this vibrant city-state, leaving a lasting impression on me and all who have the privilege of witnessing its magnificence.
 
+{% include googlemap.html id="aaaaa" src="'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924.530555941477!2d103.8541350454053!3d1.2869096631543024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19085926dadb%3A0x9f427391c9f64c38!2sMerlion!5e0!3m2!1sen!2sth!4v1687621841044!5m2!1sen!2sth'"%}

@@ -16,5 +16,3 @@ One of the highlights of Nasi Padang is the rich and aromatic curries that accom
 The variety of side dishes in Nasi Padang is another reason why this cuisine is highly regarded in Singapore. Diners can choose from a selection of dishes such as fried chicken, grilled fish, braised beef, and stir-fried vegetables. These dishes are often cooked with a myriad of spices and herbs, resulting in a burst of flavors that complement the steamed rice perfectly. The side dishes can be spicy, tangy, or savory, catering to different palates and preferences.
 
 We enjoyed it a lot with some of our NUS friends!
-
-

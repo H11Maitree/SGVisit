@@ -34,3 +34,5 @@ The show evoked nostalgia through well-known tunes from shows including "Part of
 ![]({{ site.baseurl }}/assets/img/contents/spectra-garden-by-the-bay/MAT03011.jpg)
 ## The Spectra vs Garden Rhapsody
 During our ride home, we debated which show was superior. While one member preferred The Spectra for its technologically advanced performance, I found the Garden Rhapsody more emotive due to the meaningful content displayed, despite the seemingly simpler technology behind the show.
+
+{% include googlemap.html id="aaaaa" src="'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.820282751414!2d103.86103827602203!3d1.2815736617893196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1904937e1633%3A0x62099677b59fca76!2sGardens%20by%20the%20Bay!5e0!3m2!1sen!2shk!4v1687623392705!5m2!1sen!2shk'"%}

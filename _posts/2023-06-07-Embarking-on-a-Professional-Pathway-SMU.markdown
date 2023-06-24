@@ -34,3 +34,5 @@ We learned that due to the supportive ecosystem of the school, 50% of students o
 For graduate studies, candidates undergo interviews with professors and take standardized exams to assess their potential. As the university uses English as the medium of instruction, non-native English speakers are required to provide IELTS or TOEFL scores if English wasn't the medium of instruction in their previous studies.
 
 {% include panorama_image.html id="bbbbb" src="/assets/img/360Pictures/SMU3.jpg" x=2.5 y=1 z=0 %}
+
+{% include googlemap.html id="aaaaa" src="'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7952387149357!2d103.84454738595653!3d1.297554158379937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19a340000001%3A0xdb2ba83d5e574a35!2sSMU%20School%20of%20Computing%20and%20Information%20Systems%201!5e0!3m2!1sen!2sth!4v1687622714397!5m2!1sen!2sth'"%}

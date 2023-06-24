@@ -24,3 +24,5 @@ Lastly, this visit to the S.E.A. Aquarium with our amazing fellows is unforgetta
 ![]({{ site.baseurl }}/assets/img/contents/aquarium/8jun3.jpg)
 
 {% include panorama_image.html id="aaaaa" src="/assets/img/360Pictures/SEA.jpg" %}
+
+{% include googlemap.html id="aaaaa" src="'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8561611746295!2d103.81564378595655!3d1.25832625860346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1bfdabc2ed8f%3A0xf4b09544068cfd26!2sS.E.A.%20Aquarium!5e0!3m2!1sen!2shk!4v1687623234312!5m2!1sen!2shk'"%}
