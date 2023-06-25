@@ -2,7 +2,7 @@
 layout: post
 title:  "Carousell Singapore Office Visit"
 date:   2023-06-07 10:00:00 +0800
-categories: students-exploration
+categories: academic-visit
 ---
 
 ## Arrival
@@ -27,3 +27,5 @@ After a presentation session, the company and university team shared their gifts
 ![]({{ site.baseurl }}/assets/img/contents/carousell/DSC02611.JPG)
 
 Overall, students learned a lot from the visit, and we are grateful to the Carousell team for sharing their experience with us!
+
+{% include googlemap.html id="aaaaa" src="'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.178400298119!2d103.7874864!3d1.2979591!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a42b363ffff%3A0xa93dcad56dd62804!2sCarousell%20Pte.%20Ltd.!5e0!3m2!1sen!2sth!4v1687691377025!5m2!1sen!2sth'"%}
