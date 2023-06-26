@@ -1,5 +1,140 @@
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <style>
+		.twitter-embed {
+			align-items: stretch;
+			border-color: rgb(207, 217, 222);
+			border-radius: 12px;
+			border-style: solid;
+			border-width: 1px;
+			min-width: 300px;
+			max-width: 600px;
+		}
+
+		.twitter-embed:hover {
+			background-color: rgba(207, 217, 222, 0.241);
+		}
+
+		.twitter-embed>* {
+			font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+		}
+
+		.article {
+			padding-bottom: 6px;
+			padding-left: 16px;
+			padding-right: 16px;
+			padding-top: 12px;
+		}
+
+
+		.tweet-content>* {
+			display: inline;
+			font-feature-settings: normal;
+			font-kerning: auto;
+			font-optical-sizing: auto;
+			font-size: 19px;
+			font-stretch: 100%;
+			font-weight: 400;
+		}
+
+		@media (max-width: 600px) {
+			.tweet-content>* {
+				font-size: 14px;
+			}
+		}
+
+		.hastag {
+			color: rgb(0, 111, 214);
+		}
+
+		.tweet-time {
+			color: rgb(83, 100, 113);
+			font-size: 14px;
+			margin-top: 6px;
+			margin-bottom: 6px;
+		}
+
+		.tweet-bar {
+			border-top: 1px;
+			padding-top: 4px;
+			border-top-color: rgb(207, 217, 222);
+			border-top-style: solid;
+			border-top-width: 1px;
+
+		}
+
+		.tweet-bar>* {
+			margin-right: 19px;
+		}
+
+		.twitter-heart-shape {
+			margin-top: 5px;
+			height: 20px;
+			fill: rgb(249, 24, 128);
+			color: rgb(249, 24, 128);
+			margin-right 19px;
+		}
+
+		.twitter-reply-shape {
+			margin-top: 5px;
+			height: 20px;
+			fill: rgb(29, 155, 240);
+			color: rgb(29, 155, 240);
+			margin-right 19px;
+		}
+
+		.twitter-reply {
+			display: inline;
+		}
+
+		.twitter-reply>* {
+			display: inline;
+		}
+
+		.tweet-bar p {
+			vertical-align: middle;
+			color: rgb(83, 100, 113);
+			font-weight: 700;
+			font-size: 13px;
+		}
+
+		.twitter-copy {
+			display: inline;
+		}
+
+		.twitter-copy>* {
+			display: inline;
+		}
+
+		.twitter-copy-shape {
+			margin-top: 5px;
+			height: 20px;
+			fill: rgb(83, 100, 113);
+			color: rgb(83, 100, 113);
+			margin-right 19px;
+		}
+
+		.tweet-user-left {
+			display: flex;
+		}
+
+		.tweet-user-left * {
+			display: inline-flex;
+		}
+
+		.tweet-user-display {
+			display: inline-flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.tweet-user * {
+			font-size: 14px;
+		}
+
+		.tweet-content img {
+			width: 100%;
+			margin-top: 6px;
+		}
+	
     .scrolling-wrapper {
         display: flex;
         flex-wrap: nowrap;
@@ -10,7 +145,7 @@
 
     }
 
-    .twitter-tweet iframe {
+    .twitter-embed {
         width: min(800px, 90%) !important;
         margin-right: 0.5rem !important;
         scroll-snap-align: start;
@@ -19,14 +154,347 @@
         width: unset !important;
     }
 
-    .twitter-tweet{
+    scrolling-wrapper>a{
         max-width: unset !important;
     }
     
 </style>
 <div class="scrolling-wrapper">
-    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Dr. Howard Leung and Dr. Kenneth Lee led a group of 12 CS undergraduate students to <a href="https://twitter.com/hashtag/Singapore?src=hash&amp;ref_src=twsrc%5Etfw">#Singapore</a> for a study tour</p>&mdash; CSDept HKCityU (@CityUCS) <a href="https://twitter.com/CityUCS/status/1665741138345578497?ref_src=twsrc%5Etfw">June 5, 2023</a></blockquote> 
-    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Day one of our <a href="https://twitter.com/hashtag/Singapore?src=hash&amp;ref_src=twsrc%5Etfw">#Singapore</a> study tour<br>Our group from <a href="https://twitter.com/hashtag/CityUCS?src=hash&amp;ref_src=twsrc%5Etfw">#CityUCS</a> is as diverse as this incredible city <a href="https://t.co/KDNhbhFWnR">pic.twitter.com/KDNhbhFWnR</a></p>&mdash; CSDept HKCityU (@CityUCS) <a href="https://twitter.com/CityUCS/status/1665972491179941888?ref_src=twsrc%5Etfw">June 6, 2023</a></blockquote> 
-    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Day one of our <a href="https://twitter.com/hashtag/Singapore?src=hash&amp;ref_src=twsrc%5Etfw">#Singapore</a> study tour (5 June 2023)<br>After dinner, some students explored the signature fruit Mustang King Durian. They learnt from the the salesperson about the flavors of different types and the culture of durian. <a href="https://t.co/zd4mvsNGo0">pic.twitter.com/zd4mvsNGo0</a></p>&mdash; CSDept HKCityU (@CityUCS) <a href="https://twitter.com/CityUCS/status/1668444668055683072?ref_src=twsrc%5Etfw">June 13, 2023</a></blockquote> 
-    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Day two of our <a href="https://twitter.com/hashtag/Singapore?src=hash&amp;ref_src=twsrc%5Etfw">#Singapore</a> study tour (6 June 2023)<br>In the morning, the group went to the world class and prestigious National University of Singapore (NUS). Our students had the opportunity to sit in a lecture on AI logical agents delivered by Dr. Daren Ler. <a href="https://t.co/Mj58r5dlXK">pic.twitter.com/Mj58r5dlXK</a></p>&mdash; CSDept HKCityU (@CityUCS) <a href="https://twitter.com/CityUCS/status/1668780086932443136?ref_src=twsrc%5Etfw">June 14, 2023</a></blockquote> 
+    <a href="https://twitter.com/CityUCS/status/1665741138345578497" style="text-decoration: none; color: unset;">
+		<div class="twitter-embed">
+			<div class="article">
+				<div class="tweet-user" style="display: flex; justify-content: space-between;">
+					<div class="tweet-user-left">
+						<img src="https://pbs.twimg.com/profile_images/919853474698760193/YmKeAeee_x96.jpg"
+							style="border-radius: 50%; width: 46px; padding-right:4px">
+						<div class="tweet-user-display">
+							<div class="twitter-username" style="color:rgb(15, 20, 25);font-weight: 700;">CSDept HKCityU
+							</div>
+							<div class="twitter-id-follow">
+
+								<div class="" style="color: rgb(83, 100, 113);">@CityUCS</div>
+								<div class="" style="padding-left: 4px; padding-right: 4px; color: rgb(83, 100, 113);">
+									&#183; </div>
+								<div style="color:rgb(0, 111, 214); font-weight:700;">Follow</div>
+							</div>
+						</div>
+					</div>
+					<div class="tweet-user-right">
+						<svg style="color: rgb(29, 155, 240); fill:rgb(29, 155, 240);  height:23.75px;"
+							viewBox="0 0 24 24" aria-hidden="true"
+							class="r-1cvl2hr r-4qtqp9 r-yyyyoo r-1ve99a9 r-19fsva8 r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-23tnvd">
+							<g>
+								<path
+									d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z">
+								</path>
+							</g>
+						</svg>
+					</div>
+				</div>
+				<div class="tweet-content">
+
+					<div>
+						Dr. Howard Leung and Dr. Kenneth Lee led a group of 12 CS undergraduate students to
+					</div>
+					<div class="hastag">
+						#Singapore
+					</div>
+					<div>
+						for a study tour
+					</div>
+				</div>
+				<div class="tweet-time">
+					10:23 PM &#183; Jun 5, 2023
+				</div>
+				<div class="tweet-bar">
+					<svg viewBox="0 0 24 24" aria-hidden="true"
+						class="twitter-heart-shape r-vkub15 r-4qtqp9 r-1sreavd r-1xvli5t r-dnmrzs r-bnwqim r-1plcrui r-lrvibr">
+						<g>
+							<path
+								d="M20.884 13.19c-1.351 2.48-4.001 5.12-8.379 7.67l-.503.3-.504-.3c-4.379-2.55-7.029-5.19-8.382-7.67-1.36-2.5-1.41-4.86-.514-6.67.887-1.79 2.647-2.91 4.601-3.01 1.651-.09 3.368.56 4.798 2.01 1.429-1.45 3.146-2.1 4.796-2.01 1.954.1 3.714 1.22 4.601 3.01.896 1.81.846 4.17-.514 6.67z">
+							</path>
+						</g>
+					</svg>
+					<div class="twitter-reply">
+						<svg viewBox="0 0 24 24" aria-hidden="true"
+							class="twitter-reply-shape r-1cvl2hr r-4qtqp9 r-4r3dic r-1xvli5t r-dnmrzs r-bnwqim r-1plcrui r-lrvibr">
+							<g>
+								<path
+									d="M1.751 10c0-4.42 3.584-8 8.005-8h4.366c4.49 0 8.129 3.64 8.129 8.13 0 2.96-1.607 5.68-4.196 7.11l-8.054 4.46v-3.69h-.067c-4.49.1-8.183-3.51-8.183-8.01z">
+								</path>
+							</g>
+						</svg>
+						<p>Reply</p>
+					</div>
+					<div class="twitter-copy">
+						<svg viewBox="0 0 24 24" aria-hidden="true"
+							class="twitter-copy-shape r-14j79pv r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-bnwqim r-1plcrui r-lrvibr">
+							<g>
+								<path
+									d="M18.36 5.64c-1.95-1.96-5.11-1.96-7.07 0L9.88 7.05 8.46 5.64l1.42-1.42c2.73-2.73 7.16-2.73 9.9 0 2.73 2.74 2.73 7.17 0 9.9l-1.42 1.42-1.41-1.42 1.41-1.41c1.96-1.96 1.96-5.12 0-7.07zm-2.12 3.53l-7.07 7.07-1.41-1.41 7.07-7.07 1.41 1.41zm-12.02.71l1.42-1.42 1.41 1.42-1.41 1.41c-1.96 1.96-1.96 5.12 0 7.07 1.95 1.96 5.11 1.96 7.07 0l1.41-1.41 1.42 1.41-1.42 1.42c-2.73 2.73-7.16 2.73-9.9 0-2.73-2.74-2.73-7.17 0-9.9z">
+								</path>
+							</g>
+						</svg>
+						<p>Copy link</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+
+	<a href="https://twitter.com/CityUCS/status/1665972491179941888" style="text-decoration: none; color: unset;">
+		<div class="twitter-embed">
+			<div class="article">
+				<div class="tweet-user" style="display: flex; justify-content: space-between;">
+					<div class="tweet-user-left">
+						<img src="https://pbs.twimg.com/profile_images/919853474698760193/YmKeAeee_x96.jpg"
+							style="border-radius: 50%; width: 46px; padding-right:4px">
+						<div class="tweet-user-display">
+							<div class="twitter-username" style="color:rgb(15, 20, 25);font-weight: 700;">CSDept HKCityU
+							</div>
+							<div class="twitter-id-follow">
+
+								<div class="" style="color: rgb(83, 100, 113);">@CityUCS</div>
+								<div class="" style="padding-left: 4px; padding-right: 4px; color: rgb(83, 100, 113);">
+									&#183; </div>
+								<div style="color:rgb(0, 111, 214); font-weight:700;">Follow</div>
+							</div>
+						</div>
+					</div>
+					<div class="tweet-user-right">
+						<svg style="color: rgb(29, 155, 240); fill:rgb(29, 155, 240);  height:23.75px;"
+							viewBox="0 0 24 24" aria-hidden="true"
+							class="r-1cvl2hr r-4qtqp9 r-yyyyoo r-1ve99a9 r-19fsva8 r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-23tnvd">
+							<g>
+								<path
+									d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z">
+								</path>
+							</g>
+						</svg>
+					</div>
+				</div>
+				<div class="tweet-content">
+
+					<div>
+						Day one of our
+					</div>
+					<div class="hastag">
+						#Singapore
+					</div>
+					<div>
+						study tour
+						Our group from
+					</div>
+					<div class="hastag">
+						#CityUCS </div>
+					<div> is as diverse as this incredible city</div>
+
+					<img src="{{ site.baseurl }}/assets/img/twitter/t1.png">
+				</div>
+				<div class="tweet-time">
+					1:42 PM &#183; Jun 6, 2023
+				</div>
+				<div class="tweet-bar">
+					<svg viewBox="0 0 24 24" aria-hidden="true"
+						class="twitter-heart-shape r-vkub15 r-4qtqp9 r-1sreavd r-1xvli5t r-dnmrzs r-bnwqim r-1plcrui r-lrvibr">
+						<g>
+							<path
+								d="M20.884 13.19c-1.351 2.48-4.001 5.12-8.379 7.67l-.503.3-.504-.3c-4.379-2.55-7.029-5.19-8.382-7.67-1.36-2.5-1.41-4.86-.514-6.67.887-1.79 2.647-2.91 4.601-3.01 1.651-.09 3.368.56 4.798 2.01 1.429-1.45 3.146-2.1 4.796-2.01 1.954.1 3.714 1.22 4.601 3.01.896 1.81.846 4.17-.514 6.67z">
+							</path>
+						</g>
+					</svg>
+					<div class="twitter-reply">
+						<svg viewBox="0 0 24 24" aria-hidden="true"
+							class="twitter-reply-shape r-1cvl2hr r-4qtqp9 r-4r3dic r-1xvli5t r-dnmrzs r-bnwqim r-1plcrui r-lrvibr">
+							<g>
+								<path
+									d="M1.751 10c0-4.42 3.584-8 8.005-8h4.366c4.49 0 8.129 3.64 8.129 8.13 0 2.96-1.607 5.68-4.196 7.11l-8.054 4.46v-3.69h-.067c-4.49.1-8.183-3.51-8.183-8.01z">
+								</path>
+							</g>
+						</svg>
+						<p>Reply</p>
+					</div>
+					<div class="twitter-copy">
+						<svg viewBox="0 0 24 24" aria-hidden="true"
+							class="twitter-copy-shape r-14j79pv r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-bnwqim r-1plcrui r-lrvibr">
+							<g>
+								<path
+									d="M18.36 5.64c-1.95-1.96-5.11-1.96-7.07 0L9.88 7.05 8.46 5.64l1.42-1.42c2.73-2.73 7.16-2.73 9.9 0 2.73 2.74 2.73 7.17 0 9.9l-1.42 1.42-1.41-1.42 1.41-1.41c1.96-1.96 1.96-5.12 0-7.07zm-2.12 3.53l-7.07 7.07-1.41-1.41 7.07-7.07 1.41 1.41zm-12.02.71l1.42-1.42 1.41 1.42-1.41 1.41c-1.96 1.96-1.96 5.12 0 7.07 1.95 1.96 5.11 1.96 7.07 0l1.41-1.41 1.42 1.41-1.42 1.42c-2.73 2.73-7.16 2.73-9.9 0-2.73-2.74-2.73-7.17 0-9.9z">
+								</path>
+							</g>
+						</svg>
+						<p>Copy link</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a href="https://twitter.com/CityUCS/status/1668444668055683072" style="text-decoration: none; color: unset;">
+		<div class="twitter-embed">
+			<div class="article">
+				<div class="tweet-user" style="display: flex; justify-content: space-between;">
+					<div class="tweet-user-left">
+						<img src="https://pbs.twimg.com/profile_images/919853474698760193/YmKeAeee_x96.jpg"
+							style="border-radius: 50%; width: 46px; padding-right:4px">
+						<div class="tweet-user-display">
+							<div class="twitter-username" style="color:rgb(15, 20, 25);font-weight: 700;">CSDept HKCityU
+							</div>
+							<div class="twitter-id-follow">
+
+								<div class="" style="color: rgb(83, 100, 113);">@CityUCS</div>
+								<div class="" style="padding-left: 4px; padding-right: 4px; color: rgb(83, 100, 113);">
+									&#183; </div>
+								<div style="color:rgb(0, 111, 214); font-weight:700;">Follow</div>
+							</div>
+						</div>
+					</div>
+					<div class="tweet-user-right">
+						<svg style="color: rgb(29, 155, 240); fill:rgb(29, 155, 240);  height:23.75px;"
+							viewBox="0 0 24 24" aria-hidden="true"
+							class="r-1cvl2hr r-4qtqp9 r-yyyyoo r-1ve99a9 r-19fsva8 r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-23tnvd">
+							<g>
+								<path
+									d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z">
+								</path>
+							</g>
+						</svg>
+					</div>
+				</div>
+				<div class="tweet-content">
+
+					<div>
+						Day one of our </div>
+					<div class="hastag">#Singapore</div>
+					<div> study tour (5 June 2023)<br>
+						After dinner, some students explored the signature fruit Mustang King Durian. They learnt from
+						the
+						the salesperson about the flavors of different types and the culture of durian.
+					</div>
+
+
+					<img src="{{ site.baseurl }}/assets/img/twitter/t2.png">
+				</div>
+				<div class="tweet-time">
+					9:26 AM &#183; Jun 13, 2023
+				</div>
+				<div class="tweet-bar">
+					<svg viewBox="0 0 24 24" aria-hidden="true"
+						class="twitter-heart-shape r-vkub15 r-4qtqp9 r-1sreavd r-1xvli5t r-dnmrzs r-bnwqim r-1plcrui r-lrvibr">
+						<g>
+							<path
+								d="M20.884 13.19c-1.351 2.48-4.001 5.12-8.379 7.67l-.503.3-.504-.3c-4.379-2.55-7.029-5.19-8.382-7.67-1.36-2.5-1.41-4.86-.514-6.67.887-1.79 2.647-2.91 4.601-3.01 1.651-.09 3.368.56 4.798 2.01 1.429-1.45 3.146-2.1 4.796-2.01 1.954.1 3.714 1.22 4.601 3.01.896 1.81.846 4.17-.514 6.67z">
+							</path>
+						</g>
+					</svg>
+					<div class="twitter-reply">
+						<svg viewBox="0 0 24 24" aria-hidden="true"
+							class="twitter-reply-shape r-1cvl2hr r-4qtqp9 r-4r3dic r-1xvli5t r-dnmrzs r-bnwqim r-1plcrui r-lrvibr">
+							<g>
+								<path
+									d="M1.751 10c0-4.42 3.584-8 8.005-8h4.366c4.49 0 8.129 3.64 8.129 8.13 0 2.96-1.607 5.68-4.196 7.11l-8.054 4.46v-3.69h-.067c-4.49.1-8.183-3.51-8.183-8.01z">
+								</path>
+							</g>
+						</svg>
+						<p>Reply</p>
+					</div>
+					<div class="twitter-copy">
+						<svg viewBox="0 0 24 24" aria-hidden="true"
+							class="twitter-copy-shape r-14j79pv r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-bnwqim r-1plcrui r-lrvibr">
+							<g>
+								<path
+									d="M18.36 5.64c-1.95-1.96-5.11-1.96-7.07 0L9.88 7.05 8.46 5.64l1.42-1.42c2.73-2.73 7.16-2.73 9.9 0 2.73 2.74 2.73 7.17 0 9.9l-1.42 1.42-1.41-1.42 1.41-1.41c1.96-1.96 1.96-5.12 0-7.07zm-2.12 3.53l-7.07 7.07-1.41-1.41 7.07-7.07 1.41 1.41zm-12.02.71l1.42-1.42 1.41 1.42-1.41 1.41c-1.96 1.96-1.96 5.12 0 7.07 1.95 1.96 5.11 1.96 7.07 0l1.41-1.41 1.42 1.41-1.42 1.42c-2.73 2.73-7.16 2.73-9.9 0-2.73-2.74-2.73-7.17 0-9.9z">
+								</path>
+							</g>
+						</svg>
+						<p>Copy link</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+	<a href="https://twitter.com/CityUCS/status/1668780086932443136" style="text-decoration: none; color: unset;">
+		<div class="twitter-embed">
+			<div class="article">
+				<div class="tweet-user" style="display: flex; justify-content: space-between;">
+					<div class="tweet-user-left">
+						<img src="https://pbs.twimg.com/profile_images/919853474698760193/YmKeAeee_x96.jpg"
+							style="border-radius: 50%; width: 46px; padding-right:4px">
+						<div class="tweet-user-display">
+							<div class="twitter-username" style="color:rgb(15, 20, 25);font-weight: 700;">CSDept HKCityU
+							</div>
+							<div class="twitter-id-follow">
+
+								<div class="" style="color: rgb(83, 100, 113);">@CityUCS</div>
+								<div class="" style="padding-left: 4px; padding-right: 4px; color: rgb(83, 100, 113);">
+									&#183; </div>
+								<div style="color:rgb(0, 111, 214); font-weight:700;">Follow</div>
+							</div>
+						</div>
+					</div>
+					<div class="tweet-user-right">
+						<svg style="color: rgb(29, 155, 240); fill:rgb(29, 155, 240);  height:23.75px;"
+							viewBox="0 0 24 24" aria-hidden="true"
+							class="r-1cvl2hr r-4qtqp9 r-yyyyoo r-1ve99a9 r-19fsva8 r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-23tnvd">
+							<g>
+								<path
+									d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z">
+								</path>
+							</g>
+						</svg>
+					</div>
+				</div>
+				<div class="tweet-content">
+
+					<div>
+						Day two of our </div>
+					<div class="hastag">#Singapore</div>
+					<div> study tour (6 June 2023)<br>
+						In the morning, the group went to the world class and prestigious National University of
+						Singapore
+						(NUS). Our students had the opportunity to sit in a lecture on AI logical agents delivered by
+						Dr.
+						Daren Ler.
+					</div>
+
+
+					<img src="{{ site.baseurl }}/assets/img/twitter/t3.png">
+				</div>
+				<div class="tweet-time">
+					7:39 AM &#183; Jun 14, 2023
+				</div>
+				<div class="tweet-bar">
+					<svg viewBox="0 0 24 24" aria-hidden="true"
+						class="twitter-heart-shape r-vkub15 r-4qtqp9 r-1sreavd r-1xvli5t r-dnmrzs r-bnwqim r-1plcrui r-lrvibr">
+						<g>
+							<path
+								d="M20.884 13.19c-1.351 2.48-4.001 5.12-8.379 7.67l-.503.3-.504-.3c-4.379-2.55-7.029-5.19-8.382-7.67-1.36-2.5-1.41-4.86-.514-6.67.887-1.79 2.647-2.91 4.601-3.01 1.651-.09 3.368.56 4.798 2.01 1.429-1.45 3.146-2.1 4.796-2.01 1.954.1 3.714 1.22 4.601 3.01.896 1.81.846 4.17-.514 6.67z">
+							</path>
+						</g>
+					</svg>
+					<div class="twitter-reply">
+						<svg viewBox="0 0 24 24" aria-hidden="true"
+							class="twitter-reply-shape r-1cvl2hr r-4qtqp9 r-4r3dic r-1xvli5t r-dnmrzs r-bnwqim r-1plcrui r-lrvibr">
+							<g>
+								<path
+									d="M1.751 10c0-4.42 3.584-8 8.005-8h4.366c4.49 0 8.129 3.64 8.129 8.13 0 2.96-1.607 5.68-4.196 7.11l-8.054 4.46v-3.69h-.067c-4.49.1-8.183-3.51-8.183-8.01z">
+								</path>
+							</g>
+						</svg>
+						<p>Reply</p>
+					</div>
+					<div class="twitter-copy">
+						<svg viewBox="0 0 24 24" aria-hidden="true"
+							class="twitter-copy-shape r-14j79pv r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-bnwqim r-1plcrui r-lrvibr">
+							<g>
+								<path
+									d="M18.36 5.64c-1.95-1.96-5.11-1.96-7.07 0L9.88 7.05 8.46 5.64l1.42-1.42c2.73-2.73 7.16-2.73 9.9 0 2.73 2.74 2.73 7.17 0 9.9l-1.42 1.42-1.41-1.42 1.41-1.41c1.96-1.96 1.96-5.12 0-7.07zm-2.12 3.53l-7.07 7.07-1.41-1.41 7.07-7.07 1.41 1.41zm-12.02.71l1.42-1.42 1.41 1.42-1.41 1.41c-1.96 1.96-1.96 5.12 0 7.07 1.95 1.96 5.11 1.96 7.07 0l1.41-1.41 1.42 1.41-1.42 1.42c-2.73 2.73-7.16 2.73-9.9 0-2.73-2.74-2.73-7.17 0-9.9z">
+								</path>
+							</g>
+						</svg>
+						<p>Copy link</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
 </div>
