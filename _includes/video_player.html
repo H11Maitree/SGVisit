@@ -2,7 +2,14 @@
 {% if include.src contains 'https://' %}
 <source src="{{ include.src }}" type="video/{{ include.type }}">
 {% else %}
-  <source src="{{ site.baseurl }}{{ include.src }}" type="video/{{ include.type }}">
+  {% assign path_parts = include.src | split: '/' %}
+  {% assign filename = path_parts | last | replace: '.mp4', ''| replace: '.ogv', ''| replace: '.webm', '' %}
+  {% assign original_filename = path_parts | last %}
+  {% assign new_path = include.src | replace: original_filename, 'converted/' | append: filename %}
+
+  <source src="{{ site.baseurl }}{{ new_path }}.mp4" type="video/mp4">
+  <source src="{{ site.baseurl }}{{ new_path }}.ogg" type="video/ogg">
+  <source src="{{ site.baseurl }}{{ new_path }}.webm" type="video/webm">
 {% endif %}
 Your browser does not support the video tag.
 </video>
