@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Host Favorites at Chin Chin Eating House with former CityUs"
+title: "Host Favorites at Chin Chin Eating House with former CityU colleagues"
 date: 2023-06-07 13:30:00 +0800
 categories: group-meal
 ---
 {% include panorama_import.html %}
 ![]({{ site.baseurl }}/assets/img/contents/chinchin/MAT00247.jpg)
-## Host Favorites at Chin Chin Eating House with former CityUs
+## Host Favorites at Chin Chin Eating House with former CityU colleagues
 We enjoyed an exceptional lunch at Chin Chin Eating House, recommended by our hosts: Dr. NGO Chong Wah, Dr. YANG Guomin, and Dr. HE Shengfeng. Currently professors at the Singapore School of Computing and Information Systems, Management University, they guided us to this local gem situated a brief 15-minute walk from the SMU campus.
 
 ![]({{ site.baseurl }}/assets/img/contents/chinchin/IMG_8673.jpg)
@@ -20,7 +20,7 @@ The star of the meal is the Hainanese chicken, made tender through a slow poachi
 Beyond Hainanese Chicken Rice, Chin Chin Eating House offers a wide array of Singaporean and Southeast Asian-influenced favorites. We enjoyed Sambal Kangkong, Cereal Prawns, Foo Young Omelet, and Hainanese Prawn Rolls. The sambal kangkong, a spicy water spinach dish prepared with Belachan (fermented shrimp paste), provided a taste of authentic Singapore-Malay cuisine.
 
 ![]({{ site.baseurl }}/assets/img/contents/chinchin/gp95.jpeg)
-## Meeting with Former CityUs at SMU
+## Meeting with former CityU colleagues at SMU
 Following our flavorful lunch, we took a leisurely walk to the Singapore Management University's School of Computing and Information Systems. There, we looked forward to engaging in insightful discussions with our esteemed hosts. Our hosts, Dr. NGO Chong Wah, Dr. YANG Guomin, and Dr. HE Shengfeng, all have backgrounds linked to CityU.
 
 ![]({{ site.baseurl }}/assets/img/contents/chinchin/IMG_8704.jpg)
